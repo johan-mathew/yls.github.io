@@ -1,0 +1,14 @@
+{
+  "name": "yls_website",
+  "version": "1.0.0",
+  "description": "YLS Website using sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass main.scss style.css"
+  },
+  "author": "Johan",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
