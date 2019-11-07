@@ -533,7 +533,7 @@ input:focus{
 }    
 .shift-down
 {
-    margin-top:35rem;
+    margin-top:25rem;
     width: 100%;
 }
 #header-initiatives
@@ -554,9 +554,9 @@ input:focus{
 }
 .main
 {
+    padding:0 20rem;
     &-stories
-    {
-        padding:0 20rem;
+    {   
         position: relative;
         &-btn
         {
@@ -564,7 +564,7 @@ input:focus{
             position: absolute;
             top:2rem;
             width:24rem;
-            right:17rem;
+            right:-4rem;
             &-structure
             {
                 display: block;
@@ -752,7 +752,7 @@ input:focus{
     }
     &-our-mission
     {
-        margin:10.5rem 32.7rem;
+        margin:10.5rem 12.7rem;
         background-color: #8DCEE2;
         border: 1px solid #E1E1E1;
         color: white;
@@ -820,7 +820,7 @@ input:focus{
     }
     &-carousel
     {
-        margin:14rem 19rem;
+        margin:14rem 1rem;
         &-heading
         {
             font-size: 3.75rem;
@@ -983,19 +983,19 @@ input:focus{
                 }
                 &-button
                 {
-                        display: block;
-                        color: white;
-                        background-color: #245FC2;
-                        text-align: center;
-                        padding: 1.5rem 3rem;
-                        border: none;
-                        cursor: default;
-                        p
-                        {
-                            font-weight: 500;
-                            font-size: 1.75rem;
-                            line-height: 2.1rem;
-                        }
+                    display: block;
+                    color: white;
+                    background-color: #245FC2;
+                    text-align: center;
+                    padding: 1.5rem 3rem;
+                    border: none;
+                    cursor: default;
+                    p
+                    {
+                        font-weight: 500;
+                        font-size: 1.75rem;
+                        line-height: 2.1rem;
+                    }
                        
                 } 
             }
@@ -1126,4 +1126,1022 @@ input:focus{
 {
     opacity: 0;
     visibility: hidden;
+}
+
+// <--------------------MEDIA QUERIES-------------------------->
+
+@media (max-width:1466px)
+{
+
+    .header
+    {
+        padding: 2.8rem 18rem 0 18rem;
+    }
+    .talk-to-us
+    {
+        padding: 2.8rem 18rem 0 18rem;
+    }
+    .main
+    {
+        padding:0 18rem;
+       
+    }
+    .footer
+    {
+        padding: 4.5rem 18rem 0 18rem;
+        &-navbar
+        {
+            &-structure 
+            {    
+                &-list
+                {
+                
+                    &-a
+                    {
+                        margin:0 3.5rem;
+                        margin-top: 1.7rem;
+                    }
+                }            
+            }
+        }        
+    }
+
+
+}
+@media(max-width:1366px){
+    .header{
+        height:90rem;
+    }
+}
+@media (max-width:1280px)
+{
+
+    .header
+    {
+        padding: 2.8rem 14rem 0 14rem;
+    }
+    .talk-to-us
+    {
+        padding: 2.8rem 14rem 0 14rem;
+        &-heading
+        {
+            &-tagline
+            {
+                padding: 0 10rem;
+            }
+        }        
+    }
+    .shift-down
+    {
+        margin-top:20rem;
+    }
+    .main
+    {
+        padding:0 14rem;
+    }
+    .footer
+    {
+        padding: 4.5rem 14rem 0 14rem;
+    }
+}
+
+@media(max-width:1200px)
+{
+    html
+    {
+        font-size:8px;
+    }
+
+    .header
+    {
+        padding: 2.8rem 14rem 0 14rem;
+        height:90rem;
+        &-btn
+        {
+            &-structure
+            {
+                svg
+                { 
+                    width:3rem;
+                    top:1.4rem;
+                }
+            }
+        }            
+    }
+    .talk-to-us
+    {
+        padding: 2.8rem 14rem 0 14rem;
+    }
+    .shift-down
+    {
+        margin-top:20rem;
+    }
+    .main
+    {
+        padding:0 14rem;
+        &-stories
+        {
+            &-btn
+            {
+                &-structure
+                {
+                    svg
+                    {
+                        width:3.5rem;
+                        top:1rem;
+                    }
+                }
+            }
+        } 
+        .right-chevron-round
+        {
+            display: inline-block;
+            img
+            {
+                width:2.4rem;
+            }
+        }           
+
+    }
+    .footer
+    {
+        padding: 4.5rem 14rem 0 14rem;
+        &-navbar
+        {
+            &-structure 
+            {       
+                &-list
+                {
+                    
+                    &-a
+                    {
+                        svg
+                        {
+                            width:2.5rem;
+                        }
+                    }
+                }
+            }
+        }               
+    }
+}
+@media (max-width:900px)
+{
+    html
+    {
+        font-size:8px;
+    }
+
+    .header
+    {
+        padding: 2.8rem 8rem 0 8rem;
+        height:60vh;
+    }
+    .talk-to-us
+    {
+        padding: 2.8rem 8rem 0 8rem;
+    }
+    .shift-down
+    {
+        margin-top:20rem;
+    }
+    .main
+    {
+        padding:0 8rem;
+        &-stories
+        {
+            &-row
+            {
+                width: 100%;
+                margin-top:-12rem;
+                &-col-1-of-3
+                {
+
+                    &-left
+                    {
+                        padding:14rem 2rem 4rem 2rem;     
+                        height:35rem;              
+                        .right-chevron-round
+                        {
+                            display: inline-block;
+                            img
+                            {
+                                width:2rem;
+                            }
+                        }
+                        &-h2
+                        {
+                            margin-left: 1rem;
+                            font-size: 1.8rem;
+                        }
+    
+                        &-h1
+                        {
+                            font-size: 2.2rem;
+                        }     
+                    }
+                    &-middle
+                    {
+                        padding:14rem 2rem 4rem 2rem;     
+                        height:35rem;              
+                        .right-chevron-round
+                        {
+                            display: inline-block;
+                            img
+                            {
+                                width:2rem;
+                            }
+                        }
+                        &-h2
+                        {
+                            margin-left: 1rem;
+                            font-size: 1.8rem;
+                        }
+    
+                        &-h1
+                        {
+                            font-size: 2.2rem;
+                        }     
+                    }
+                    &-right
+                    {
+                        padding:14rem 2rem 4rem 2rem;     
+                        height:35rem;              
+                        .right-chevron-round
+                        {
+                            display: inline-block;
+                            img
+                            {
+                                width:2rem;
+                            }
+                        }
+                        &-h2
+                        {
+                            margin-left: 1rem;
+                            font-size: 1.8rem;
+                        }
+    
+                        &-h1
+                        {
+                            font-size: 2.2rem;
+                        }     
+                    }
+                }
+            }  
+        }      
+        &-our-mission
+        { 
+            margin: 10rem 2rem 0 2rem;
+        }    
+    }
+    .footer
+    {
+        padding: 4.5rem 8rem 0 8rem;
+        &-navbar
+        {
+            &-structure 
+            {       
+                &-list
+                {
+                    
+                    &-a
+                    {
+                        margin: 0 3rem;
+                        margin-top: 1.7rem;
+                        width:2rem;
+                        svg
+                        {
+                            width:2rem;
+                        }
+                    }
+                }
+            }
+        }               
+    }
+}
+@media (max-width:600px)
+{
+    html
+    {
+        font-size:6px;
+    }
+.header
+{
+    height: 115vh;
+    padding: 7rem 5rem 0 5rem;
+    &-navbar
+    {
+        &-structure 
+        {         
+            &-list
+            {
+                &:first-child
+                {
+                    margin-top: 1rem;
+                    img
+                    {
+                        width:3.5rem;
+                    }
+                }
+                &:not(first-child)
+                { 
+                    margin-top: 0.5rem; 
+                }  
+                &:nth-child(2){
+                    font-size: 2rem;
+                    margin-top: 0.7rem;
+                    margin-left:1.5rem;
+                }    
+                &-button
+                {
+                        padding: 1.5rem 3rem;
+                        border: none;
+                        p
+                        {
+                            font-size: 1.75rem;
+                        }
+                       
+                } 
+                &-drop
+                {
+                    font-size: 1.5rem;
+                    padding: 1.4rem 1rem;
+                    margin-right: 0rem;
+                    margin-top:0.3rem;
+                    i  
+                    {
+                        font-size: 1.5rem;
+                        margin-left:0.9rem;
+                    }
+                } 
+                &-dropdown-triangle-1
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:4rem;
+                    
+                }
+                &-dropdown-1
+                {
+                    width: 100%;
+                    z-index: 100;
+                    left:-25rem;
+                    top:5.5rem;                  
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        line-height: 2.1rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }
+                }
+                &-dropdown-triangle-2
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:4rem;
+                    
+                }
+                &-dropdown-2
+                {
+                    left:-3rem;
+                    top:5.5rem;
+                    width:21.5rem;
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }                  
+                }
+            }
+        }
+    }
+
+    &-textbox
+    {
+        top:50rem;
+        &-heading
+        {
+            &-secondary
+            {
+                font-size: 2.5rem;
+                margin-bottom: 2.3rem;
+            }
+            &-primary
+            {
+                font-size: 5.5rem;
+            }
+        }
+    }
+
+    &-btn
+    {
+        top:70rem;
+        &-structure
+        {
+            width: 31rem;
+            padding: 2rem 1.8rem 2rem 3rem;
+            font-size: 2.5rem;
+            svg
+            {
+                top: 1.9rem;
+                right: 2rem;
+            }
+        }
+    }
+}
+.talk-to-us
+{
+    height: 100vh;
+    padding: 2.8rem 5rem 0 5rem;
+    top:0;
+    left: 0;
+    width:100%;
+    &-navbar
+    {
+        &-structure 
+        {         
+            &-list
+            {
+                &:first-child
+                {
+                    margin-top: 1rem;
+                }
+                &:not(first-child)
+                { 
+                    margin-top: 0.5rem; 
+                }  
+                &:nth-child(2){
+                    font-size: 2.5rem;
+                    margin-top: 1.7rem;
+                    margin-left:2rem;
+                }    
+                &-button
+                {
+                    padding: 1.5rem 3rem;
+                    p
+                    {
+                        font-size: 1.75rem;
+                        line-height: 2.1rem;
+                    }
+                       
+                } 
+                &-drop
+                {
+                    font-size: 1.5rem;
+                    padding: 1.4rem 1.4rem;
+                    margin-right: 2.3rem;
+                    margin-top:0.5rem;
+                    i  
+                    {
+                        font-size: 1.5rem;
+                        margin-left:0.9rem;
+                    }
+                } 
+                &-dropdown-triangle-1
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:6rem;
+                    z-index:50;                
+                }
+                &-dropdown-1
+                {
+                    width:21.5rem;
+                    left:-3rem;
+                    top:5.5rem;                  
+                    z-index:50;
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        line-height: 2.1rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }
+                    
+
+                }
+                &-dropdown-triangle-2
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:6rem;
+                    z-index:50;
+                }
+                &-dropdown-2
+                {
+                    left:-3rem;
+                    top:5.5rem;
+                    width:21.5rem;
+                    z-index:50;
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        line-height: 2.1rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-heading
+    {
+        margin-top:20rem;
+        &-primary
+        {
+            font-size: 3.5rem;
+            top:-6rem;
+            left:50%;
+            transform: translateX(-50%);
+        }
+        &-underline
+        {
+            width:12rem;
+            height: 0.6rem;
+            margin:13rem auto 0 auto;
+        }
+        &-tagline
+        {
+            font-size:2.7rem;
+            margin-top:3rem;
+            width: fit-content;
+            padding:0 20rem;
+            left:50%;
+            transform: translateX(-50%);
+        }
+    }
+    &-form
+    {
+        padding:6.5rem 9.6rem 9rem 9.6rem;
+        margin: 20rem 10rem 2rem 10rem;
+        label
+        {
+            width:100%;
+            font-size:2.5rem;
+            margin:3.5rem 0;
+        }
+        .select
+        {
+            position: relative;
+            select
+            {
+                width:100%;
+                margin: 3.5rem 0;
+                padding: 2rem 2.5rem;
+                font-size: 2.2rem;
+                option
+                {
+                    padding: 2rem 2.5rem;
+                    font-size: 2.2rem;
+                }
+            }
+            &:before
+            {
+
+                top: 3.8rem;
+                right: 3rem;
+                width: 3rem;
+                height: 6.4rem;
+                line-height: 6.4rem;
+                font-size:3.5rem;
+            }
+        }    
+    }
+}    
+.shift-down
+{
+    margin-top:25rem;
+    width: 100%;
+}
+#header-initiatives
+{
+    height:18.5rem;
+}
+#header-about-us
+{
+    height:40rem;
+}
+#talk-to-us-initiatives
+{
+    height:18.5rem;
+}
+#talk-to-us-about-us
+{
+    height:40rem;
+}
+.main
+{
+    padding:0 5rem;
+    &-stories
+    {   
+        &-btn
+        {
+            top:2rem;
+            width:24rem;
+            right:-4rem;
+            &-structure
+            {
+                padding: 1.8rem 0.2rem 1.8rem 1.5rem;
+                font-size: 2rem;
+                &-text
+                {
+                }
+                svg
+                {
+                    top: 1.4rem;
+                    right: 1rem;
+                }
+
+            }
+        }
+        &-row
+        {
+            width: 100%;
+            margin-top:-18rem;
+            &-col-1-of-3
+            {
+                width:31.2%;
+                height: 40rem;
+                margin-right:2.8%;
+                z-index: 10;
+                &:last-child
+                {
+                    margin-right:0;
+                }
+                &-left
+                {
+                    height: 40rem;
+                    padding:18rem 3rem 4rem 3.8rem;                   
+                    .right-chevron-round
+                    {
+                        display: inline-block;
+                    }
+                    &-h2
+                    {
+                        margin-bottom: 2rem;
+                        margin-left: 1.5rem;
+                        top:-0.4rem;
+                        font-size: 2rem;
+                    }
+
+                    &-h1
+                    {
+                        margin-bottom: 4rem;
+                        font-size: 2.5rem;
+                    }
+                    &-p
+                    {
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                        }
+                    }       
+                }
+                &-middle
+                {
+                    height: 40rem;
+                    padding:18rem 3rem 4rem 3.8rem; 
+                    .right-chevron-round
+                    {
+                        display: inline-block;
+                    }
+                    &-h2
+                    {
+                        margin-bottom: 2rem;
+                        margin-left: 1.5rem;
+                        top:-0.4rem;
+                        font-size: 2rem;
+                    }
+
+
+                    &-h1
+                    {
+                        margin-bottom: 4rem;
+                        font-size: 2.5rem;
+                    }
+                    &-p
+                    {
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                        }
+                    }       
+                }
+                &-right
+                {
+                    height: 40rem;
+                    padding:18rem 3rem 4rem 3.8rem; 
+                    .right-chevron-round
+                    {
+                        display: inline-block;
+                    }
+                    &-h2
+                    {
+                        margin-bottom: 2rem;
+                        margin-left: 1.5rem;
+                        top:-0.4rem;
+                        font-size: 2rem;
+                    }
+
+                    &-h1
+                    {
+                        margin-bottom: 4rem;
+                        font-size: 2.5rem;
+                        line-height: 2.9rem;
+
+                    }
+                    &-p
+                    {
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                        }
+                    }       
+                }
+            }
+        }
+    }
+    &-our-mission
+    {
+        margin:10.5rem 12.7rem;
+        padding: 2.7rem 3rem;
+        &-heading
+        {
+            font-size: 3.75rem;
+        }
+        &-underline
+        {
+            width:11.3rem;
+            height: 1.1rem;
+            margin:2rem auto;
+        }
+        .fa-quote-left
+        {
+            font-size: 4rem;
+            top: 12rem;
+            left:5.5rem;
+        }
+        .fa-quote-right
+        {
+            font-size: 4rem;
+            bottom: 12rem;
+            right:5.5rem;
+        }
+        &-content
+        {
+            font-size: 2.75rem;
+            padding:0 5rem;
+            margin:7rem 1rem;
+            line-height: 4.5rem;   
+        }
+        &-btn
+        {
+            margin-top: 2rem;
+            &-structure
+            {
+                width: 30rem;
+                padding: 2rem 1.8rem;
+                font-size: 2rem;
+                margin:0 auto;
+                &-inner-text
+                {
+                }
+            }
+        }
+    }
+    &-carousel
+    {
+        margin:14rem 1rem;
+        &-heading
+        {
+            font-size: 3.75rem;
+        }
+        &-underline
+        {
+            width:11.3rem;
+            height: 1.1rem;
+            margin:4.9rem auto;
+        }
+        &-container
+        {
+            padding:1rem 1rem;
+            height: 30rem;
+            button
+            {
+                margin: 0;
+                width: 4rem;
+                font-size: 8rem;
+                height: 30rem;
+            }
+            &-objects
+            {
+                width:80%;
+                margin: 0;
+                .object
+                {
+                    padding:2rem 2rem;
+                    top:0;
+                    left:0;
+                    &-center
+                    {
+
+                        &-text
+                        {
+                            font-size: 3.5rem;
+                        }
+                        &-logo
+                        {
+                            margin-top: 10rem;
+                            width:50%;
+                            margin-left: auto;
+                            margin-right: auto;
+                            img
+                            {
+                                width: 7.6rem;
+                            }
+                            h1
+                            {
+                                font-size: 2.5rem;
+                                margin-top: 2.5rem;
+                            }
+                            p
+                            {
+                                font-size: 1.5rem;
+                                margin-top: 1.3rem;
+                                span
+                                {
+                                }
+                            }    
+                        }   
+                    }
+                    
+                    
+                }
+            }
+        }
+    }
+}
+.footer
+{
+    padding: 4.5rem 5rem 0 5rem;
+    &-navbar
+    {
+        &-structure 
+        {         
+            .contact-us
+            {
+                width: 50rem;
+            }
+            &-list
+            {
+                &-a
+                {
+                    margin:0 6rem;
+                    width: min-content;
+                    margin-top:1.7rem;
+                }
+                &:first-child
+                {
+                    margin-top: 1rem;
+                }
+                &:last-child
+                {   
+                    margin-top: 0.5rem; 
+                }  
+                &:nth-child(2)
+                {
+                    font-size: 2.5rem;
+                    margin-top: 1.7rem;
+                    margin-left:2rem;
+                    margin-right: 4.5rem;
+                }    
+                &-logo
+                {
+                    border-radius: 50%;
+                }
+                &-button
+                {
+                    padding: 1.5rem 3rem;
+                    p
+                    {
+                        font-size: 1.75rem;
+                        line-height: 2.1rem;
+                    }
+                       
+                } 
+            }
+        }
+    }
+    &-copyrights
+    {
+        margin-bottom:5rem;
+        margin-top:10rem;
+        font-size: 1.5rem;
+    }
+}      
+.get-involved
+{
+    width:68.5rem;
+    padding: 3.5rem 5rem 5rem 5rem;
+    .window-close
+    {
+        top:-2.5rem;
+        right: 6rem;
+        width:0rem;
+        height: 0rem;
+        font-size: 7rem;
+        padding: 0;
+    }
+    &-heading
+    {
+        font-size: 5rem;
+        margin-bottom: 1.2rem;
+    }
+    &-tagline
+    {
+        font-size: 3rem;
+        margin-bottom: 4.5rem;
+    }
+    &-button
+    {
+        font-weight: 700;
+    }
+    input
+    {
+        width:100%;
+        margin-top: 2rem;
+        padding: 2rem 2.5rem;
+        font-size: 2.2rem;
+    }
+    button
+    {
+        width:100%;
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        padding:3rem 4rem; 
+    }
+    .select
+    {
+        select
+        {
+            width:100%;
+            margin-top: 2.5rem;
+            padding: 2rem 2.5rem;
+            font-size: 2.2rem;
+            option
+            {
+                padding: 2rem 2.5rem;
+                font-size: 2.2rem;
+            }
+        }
+        &:before
+        {
+            top: 2.7rem;
+            right: 0.3rem;
+            width: 4rem;
+            height: 6.5rem;
+            line-height: 6.5rem;
+            font-size:3.5rem;
+        }
+        
+    }   
+}
 }
