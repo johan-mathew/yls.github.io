@@ -997,7 +997,8 @@ input:focus {
         .header-navbar-structure-list-dropdown-2-a:first-child {
           padding-top: 2.3rem; }
     .header-textbox {
-      top: 50rem; }
+      top: 50%;
+      transform: translateY(-50%); }
       .header-textbox-heading-secondary {
         font-size: 2.5rem;
         margin-bottom: 2.3rem; }

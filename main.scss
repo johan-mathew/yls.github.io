@@ -1537,7 +1537,8 @@ input:focus{
 
     &-textbox
     {
-        top:50rem;
+        top:50%;
+        transform: translateY(-50%);
         &-heading
         {
             &-secondary
