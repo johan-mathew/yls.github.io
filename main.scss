@@ -1555,7 +1555,8 @@ input:focus{
 
     &-btn
     {
-        top:70rem;
+        top:65%;
+        transform: translateY(-65%);
         &-structure
         {
             width: 31rem;

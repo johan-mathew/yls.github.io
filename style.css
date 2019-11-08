@@ -1005,7 +1005,8 @@ input:focus {
       .header-textbox-heading-primary {
         font-size: 5.5rem; }
     .header-btn {
-      top: 70rem; }
+      top: 65%;
+      transform: translateY(-65%); }
       .header-btn-structure {
         width: 31rem;
         padding: 2rem 1.8rem 2rem 3rem;
