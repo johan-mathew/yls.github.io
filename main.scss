@@ -850,7 +850,7 @@ input:focus{
                 color: #A7A7A7;
                 width: 4rem;
                 border:none;
-                background-color: rgb(255, 255, 255);
+                background-color: transparent;
                 font-size: 8rem;
                 text-align: center;
                 height: 30rem;
@@ -1012,7 +1012,7 @@ input:focus{
 }      
 .get-involved
 {
-    z-index:20;
+    z-index:70;
     position:fixed;
     top:50%;
     left:50%;
@@ -1427,8 +1427,8 @@ input:focus{
     }
 .header
 {
-    height: 115vh;
-    padding: 7rem 5rem 0 5rem;
+    height: 100vh;
+    padding: 2rem 2rem 0 2rem;
     &-navbar
     {
         &-structure 
@@ -1455,6 +1455,7 @@ input:focus{
                 &-button
                 {
                         padding: 1.5rem 3rem;
+                        margin-right: 0;
                         border: none;
                         p
                         {
@@ -1484,14 +1485,12 @@ input:focus{
                 }
                 &-dropdown-1
                 {
-                    width: 100%;
-                    z-index: 100;
-                    left:-25rem;
+                    width:21.5rem;
+                    left:-3rem;
                     top:5.5rem;                  
                     &-a
                     {
                         font-size: 1.75rem;
-                        line-height: 2.1rem;
                         margin:0;
                         padding: 1.5rem 2rem 1.5rem 2.4rem;
                         &:last-child
@@ -1563,7 +1562,7 @@ input:focus{
             font-size: 2.5rem;
             svg
             {
-                top: 1.9rem;
+                top: 0.5rem;
                 right: 2rem;
             }
         }
@@ -1572,7 +1571,7 @@ input:focus{
 .talk-to-us
 {
     height: 100vh;
-    padding: 2.8rem 5rem 0 5rem;
+    padding: 2rem 2rem 0 2rem;
     top:0;
     left: 0;
     width:100%;
@@ -1585,32 +1584,37 @@ input:focus{
                 &:first-child
                 {
                     margin-top: 1rem;
+                    img
+                    {
+                        width:3.5rem;
+                    }
                 }
                 &:not(first-child)
                 { 
                     margin-top: 0.5rem; 
                 }  
                 &:nth-child(2){
-                    font-size: 2.5rem;
-                    margin-top: 1.7rem;
-                    margin-left:2rem;
+                    font-size: 2rem;
+                    margin-top: 0.7rem;
+                    margin-left:1.5rem;
                 }    
                 &-button
                 {
-                    padding: 1.5rem 3rem;
-                    p
-                    {
-                        font-size: 1.75rem;
-                        line-height: 2.1rem;
-                    }
+                        padding: 1.5rem 3rem;
+                        margin-right: 0;
+                        border: none;
+                        p
+                        {
+                            font-size: 1.75rem;
+                        }
                        
                 } 
                 &-drop
                 {
                     font-size: 1.5rem;
-                    padding: 1.4rem 1.4rem;
-                    margin-right: 2.3rem;
-                    margin-top:0.5rem;
+                    padding: 1.4rem 1rem;
+                    margin-right: 0rem;
+                    margin-top:0.3rem;
                     i  
                     {
                         font-size: 1.5rem;
@@ -1622,19 +1626,17 @@ input:focus{
                     width: 2.5rem;
                     height: 2.5rem;
                     top:4.5rem;
-                    left:6rem;
-                    z-index:50;                
+                    left:4rem;
+                    
                 }
                 &-dropdown-1
                 {
                     width:21.5rem;
                     left:-3rem;
                     top:5.5rem;                  
-                    z-index:50;
                     &-a
                     {
                         font-size: 1.75rem;
-                        line-height: 2.1rem;
                         margin:0;
                         padding: 1.5rem 2rem 1.5rem 2.4rem;
                         &:last-child
@@ -1646,27 +1648,23 @@ input:focus{
                             padding-top: 2.3rem;
                         }
                     }
-                    
-
                 }
                 &-dropdown-triangle-2
                 {
                     width: 2.5rem;
                     height: 2.5rem;
                     top:4.5rem;
-                    left:6rem;
-                    z-index:50;
+                    left:4rem;
+                    
                 }
                 &-dropdown-2
                 {
                     left:-3rem;
                     top:5.5rem;
                     width:21.5rem;
-                    z-index:50;
                     &-a
                     {
                         font-size: 1.75rem;
-                        line-height: 2.1rem;
                         margin:0;
                         padding: 1.5rem 2rem 1.5rem 2.4rem;
                         &:last-child
@@ -1677,7 +1675,7 @@ input:focus{
                         {
                             padding-top: 2.3rem;
                         }
-                    }
+                    }                  
                 }
             }
         }
@@ -1703,15 +1701,15 @@ input:focus{
             font-size:2.7rem;
             margin-top:3rem;
             width: fit-content;
-            padding:0 20rem;
+            padding:0 2rem;
             left:50%;
             transform: translateX(-50%);
         }
     }
     &-form
     {
-        padding:6.5rem 9.6rem 9rem 9.6rem;
-        margin: 20rem 10rem 2rem 10rem;
+        padding:6.5rem 5rem 9rem 5rem;
+        margin: 20rem 5rem 2rem 5rem;
         label
         {
             width:100%;
@@ -1748,7 +1746,7 @@ input:focus{
 }    
 .shift-down
 {
-    margin-top:25rem;
+    margin-top:10rem;
     width: 100%;
 }
 #header-initiatives
@@ -1769,14 +1767,14 @@ input:focus{
 }
 .main
 {
-    padding:0 5rem;
+    padding:0 10rem;
     &-stories
     {   
         &-btn
         {
             top:2rem;
             width:24rem;
-            right:-4rem;
+            right:-5rem;
             &-structure
             {
                 padding: 1.8rem 0.2rem 1.8rem 1.5rem;
@@ -1786,7 +1784,7 @@ input:focus{
                 }
                 svg
                 {
-                    top: 1.4rem;
+                    top: 0rem;
                     right: 1rem;
                 }
 
@@ -1795,16 +1793,16 @@ input:focus{
         &-row
         {
             width: 100%;
-            margin-top:-18rem;
             &-col-1-of-3
             {
-                width:31.2%;
+         
                 height: 40rem;
-                margin-right:2.8%;
+                width:100%;
                 z-index: 10;
-                &:last-child
+                margin-right:0;
+                &:not(:first-child)
                 {
-                    margin-right:0;
+                    margin-top: 2rem;
                 }
                 &-left
                 {
@@ -1901,8 +1899,8 @@ input:focus{
     }
     &-our-mission
     {
-        margin:10.5rem 12.7rem;
-        padding: 2.7rem 3rem;
+        margin:5rem -5rem;
+        padding: 2rem 1rem;
         &-heading
         {
             font-size: 3.75rem;
@@ -1911,25 +1909,25 @@ input:focus{
         {
             width:11.3rem;
             height: 1.1rem;
-            margin:2rem auto;
+            margin:2rem auto 1rem auto;
         }
         .fa-quote-left
         {
-            font-size: 4rem;
-            top: 12rem;
-            left:5.5rem;
+            width:2.5rem;
+            top: 10rem;
+            left:4rem;
         }
         .fa-quote-right
         {
-            font-size: 4rem;
-            bottom: 12rem;
-            right:5.5rem;
+            width:2.5rem;
+            bottom: 9rem;
+            right:4rem;
         }
         &-content
         {
             font-size: 2.75rem;
             padding:0 5rem;
-            margin:7rem 1rem;
+            margin:4rem 1rem;
             line-height: 4.5rem;   
         }
         &-btn
@@ -1949,31 +1947,32 @@ input:focus{
     }
     &-carousel
     {
-        margin:14rem 1rem;
+        // margin:6rem 1rem;
+        width:100vw;
+        margin:6rem -10rem 6rem -10rem;     
         &-heading
         {
-            font-size: 3.75rem;
+            font-size: 3rem;
         }
         &-underline
         {
-            width:11.3rem;
+            width:10rem;
             height: 1.1rem;
-            margin:4.9rem auto;
+            margin:2rem auto;
         }
         &-container
         {
             padding:1rem 1rem;
-            height: 30rem;
+            height: 40rem;
             button
             {
-                margin: 0;
+                margin: 0 2rem;
                 width: 4rem;
                 font-size: 8rem;
                 height: 30rem;
             }
             &-objects
             {
-                width:80%;
                 margin: 0;
                 .object
                 {
@@ -1985,27 +1984,27 @@ input:focus{
 
                         &-text
                         {
-                            font-size: 3.5rem;
+                            font-size: 2.5rem;
                         }
                         &-logo
                         {
-                            margin-top: 10rem;
+                            margin-top: 3rem;
                             width:50%;
                             margin-left: auto;
                             margin-right: auto;
                             img
                             {
-                                width: 7.6rem;
+                                width: 5rem;
                             }
                             h1
                             {
-                                font-size: 2.5rem;
-                                margin-top: 2.5rem;
+                                font-size: 2rem;
+                                margin-top: 1.7rem;
                             }
                             p
                             {
                                 font-size: 1.5rem;
-                                margin-top: 1.3rem;
+                                margin-top: 1rem;
                                 span
                                 {
                                 }
@@ -2021,7 +2020,7 @@ input:focus{
 }
 .footer
 {
-    padding: 4.5rem 5rem 0 5rem;
+    padding: 4.5rem 2rem 0 2rem;
     &-navbar
     {
         &-structure 
@@ -2034,13 +2033,17 @@ input:focus{
             {
                 &-a
                 {
-                    margin:0 6rem;
+                    margin:0 1.5rem;
                     width: min-content;
-                    margin-top:1.7rem;
+                    margin-top:1rem;
                 }
                 &:first-child
                 {
                     margin-top: 1rem;
+                    img
+                    {
+                        width:3.5rem;
+                    }
                 }
                 &:last-child
                 {   
@@ -2048,10 +2051,10 @@ input:focus{
                 }  
                 &:nth-child(2)
                 {
-                    font-size: 2.5rem;
-                    margin-top: 1.7rem;
-                    margin-left:2rem;
-                    margin-right: 4.5rem;
+                    font-size: 2rem;
+                    margin-top: 0.7rem;
+                    margin-left:1.5rem;
+                    margin-right: 2rem;
                 }    
                 &-logo
                 {
@@ -2079,8 +2082,8 @@ input:focus{
 }      
 .get-involved
 {
-    width:68.5rem;
-    padding: 3.5rem 5rem 5rem 5rem;
+    width:95vw;
+    padding: 3.5rem 2rem 5rem 2rem;
     .window-close
     {
         top:-2.5rem;
@@ -2134,10 +2137,10 @@ input:focus{
         }
         &:before
         {
-            top: 2.7rem;
-            right: 0.3rem;
+            top: 3rem;
+            right: 0.5rem;
             width: 4rem;
-            height: 6.5rem;
+            height: 4rem;
             line-height: 6.5rem;
             font-size:3.5rem;
         }
