@@ -969,7 +969,7 @@ input:focus {
       left: 4rem; }
     .header-navbar-structure-list-dropdown-1 {
       width: 21.5rem;
-      left: -3rem;
+      left: -5rem;
       top: 5.5rem; }
       .header-navbar-structure-list-dropdown-1-a {
         font-size: 1.75rem;
@@ -985,7 +985,7 @@ input:focus {
       top: 4.5rem;
       left: 4rem; }
     .header-navbar-structure-list-dropdown-2 {
-      left: -3rem;
+      left: -5rem;
       top: 5.5rem;
       width: 21.5rem; }
       .header-navbar-structure-list-dropdown-2-a {
@@ -997,16 +997,16 @@ input:focus {
         .header-navbar-structure-list-dropdown-2-a:first-child {
           padding-top: 2.3rem; }
     .header-textbox {
-      top: 50%;
-      transform: translateY(-50%); }
+      top: 40%;
+      transform: translateY(-40%); }
       .header-textbox-heading-secondary {
         font-size: 2.5rem;
         margin-bottom: 2.3rem; }
       .header-textbox-heading-primary {
         font-size: 5.5rem; }
     .header-btn {
-      top: 65%;
-      transform: translateY(-65%); }
+      top: 55%;
+      transform: translateY(-55%); }
       .header-btn-structure {
         width: 31rem;
         padding: 2rem 1.8rem 2rem 3rem;
@@ -1338,3 +1338,1231 @@ input:focus {
       height: 4rem;
       line-height: 6.5rem;
       font-size: 3.5rem; } }
+
+@media (max-width: 360px) {
+  html {
+    font-size: 6px; }
+  .header {
+    height: 100vh;
+    padding: 2rem 1rem 0 1rem; }
+    .header-navbar-structure-list:first-child {
+      margin-top: 1rem; }
+      .header-navbar-structure-list:first-child img {
+        width: 3.5rem; }
+    .header-navbar-structure-list:not(first-child) {
+      margin-top: 0.5rem; }
+    .header-navbar-structure-list:nth-child(2) {
+      font-size: 2rem;
+      margin-top: 0.7rem;
+      margin-left: 1.2rem; }
+    .header-navbar-structure-list-button {
+      padding: 1.5rem 3rem;
+      margin-right: 0;
+      border: none; }
+      .header-navbar-structure-list-button p {
+        font-size: 1.75rem; }
+    .header-navbar-structure-list-drop {
+      font-size: 1.5rem;
+      padding: 1.4rem 1rem;
+      margin-right: 0rem;
+      margin-top: 0.3rem; }
+      .header-navbar-structure-list-drop i {
+        font-size: 1.5rem;
+        margin-left: 0.9rem; }
+    .header-navbar-structure-list-dropdown-triangle-1 {
+      width: 2.5rem;
+      height: 2.5rem;
+      top: 4.5rem;
+      left: 4rem; }
+    .header-navbar-structure-list-dropdown-1 {
+      width: 21.5rem;
+      left: -5rem;
+      top: 5.5rem; }
+      .header-navbar-structure-list-dropdown-1-a {
+        font-size: 1.75rem;
+        margin: 0;
+        padding: 1.5rem 2rem 1.5rem 2.4rem; }
+        .header-navbar-structure-list-dropdown-1-a:last-child {
+          padding-bottom: 2rem; }
+        .header-navbar-structure-list-dropdown-1-a:first-child {
+          padding-top: 2.3rem; }
+    .header-navbar-structure-list-dropdown-triangle-2 {
+      width: 2.5rem;
+      height: 2.5rem;
+      top: 4.5rem;
+      left: 4rem; }
+    .header-navbar-structure-list-dropdown-2 {
+      left: -5rem;
+      top: 5.5rem;
+      width: 21.5rem; }
+      .header-navbar-structure-list-dropdown-2-a {
+        font-size: 1.75rem;
+        margin: 0;
+        padding: 1.5rem 2rem 1.5rem 2.4rem; }
+        .header-navbar-structure-list-dropdown-2-a:last-child {
+          padding-bottom: 2rem; }
+        .header-navbar-structure-list-dropdown-2-a:first-child {
+          padding-top: 2.3rem; }
+    .header-textbox {
+      top: 40%;
+      transform: translateY(-40%); }
+      .header-textbox-heading-secondary {
+        font-size: 2.5rem;
+        margin-bottom: 2.3rem; }
+      .header-textbox-heading-primary {
+        font-size: 5.5rem; }
+    .header-btn {
+      top: 60%;
+      transform: translateY(-60%); }
+      .header-btn-structure {
+        width: 31rem;
+        padding: 2rem 1.8rem 2rem 3rem;
+        font-size: 2.5rem; }
+        .header-btn-structure svg {
+          top: 0.5rem;
+          right: 2rem; }
+  .talk-to-us {
+    height: 100vh;
+    padding: 2rem 1rem 0 1rem;
+    top: 0;
+    left: 0;
+    width: 100%; }
+    .talk-to-us-navbar-structure-list:first-child {
+      margin-top: 1rem; }
+      .talk-to-us-navbar-structure-list:first-child img {
+        width: 3.5rem; }
+    .talk-to-us-navbar-structure-list:not(first-child) {
+      margin-top: 0.5rem; }
+    .talk-to-us-navbar-structure-list:nth-child(2) {
+      font-size: 2rem;
+      margin-top: 0.7rem;
+      margin-left: 1.5rem; }
+    .talk-to-us-navbar-structure-list-button {
+      padding: 1.5rem 3rem;
+      margin-right: 0;
+      border: none; }
+      .talk-to-us-navbar-structure-list-button p {
+        font-size: 1.75rem; }
+    .talk-to-us-navbar-structure-list-drop {
+      font-size: 1.5rem;
+      padding: 1.4rem 1rem;
+      margin-right: 0rem;
+      margin-top: 0.3rem; }
+      .talk-to-us-navbar-structure-list-drop i {
+        font-size: 1.5rem;
+        margin-left: 0.9rem; }
+    .talk-to-us-navbar-structure-list-dropdown-triangle-1 {
+      width: 2.5rem;
+      height: 2.5rem;
+      top: 4.5rem;
+      left: 4rem; }
+    .talk-to-us-navbar-structure-list-dropdown-1 {
+      width: 21.5rem;
+      left: -3rem;
+      top: 5.5rem; }
+      .talk-to-us-navbar-structure-list-dropdown-1-a {
+        font-size: 1.75rem;
+        margin: 0;
+        padding: 1.5rem 2rem 1.5rem 2.4rem; }
+        .talk-to-us-navbar-structure-list-dropdown-1-a:last-child {
+          padding-bottom: 2rem; }
+        .talk-to-us-navbar-structure-list-dropdown-1-a:first-child {
+          padding-top: 2.3rem; }
+    .talk-to-us-navbar-structure-list-dropdown-triangle-2 {
+      width: 2.5rem;
+      height: 2.5rem;
+      top: 4.5rem;
+      left: 4rem; }
+    .talk-to-us-navbar-structure-list-dropdown-2 {
+      left: -3rem;
+      top: 5.5rem;
+      width: 21.5rem; }
+      .talk-to-us-navbar-structure-list-dropdown-2-a {
+        font-size: 1.75rem;
+        margin: 0;
+        padding: 1.5rem 2rem 1.5rem 2.4rem; }
+        .talk-to-us-navbar-structure-list-dropdown-2-a:last-child {
+          padding-bottom: 2rem; }
+        .talk-to-us-navbar-structure-list-dropdown-2-a:first-child {
+          padding-top: 2.3rem; }
+    .talk-to-us-heading {
+      margin-top: 20rem; }
+      .talk-to-us-heading-primary {
+        font-size: 3.5rem;
+        top: -6rem;
+        left: 50%;
+        transform: translateX(-50%); }
+      .talk-to-us-heading-underline {
+        width: 12rem;
+        height: 0.6rem;
+        margin: 13rem auto 0 auto; }
+      .talk-to-us-heading-tagline {
+        font-size: 2.7rem;
+        margin-top: 3rem;
+        width: fit-content;
+        padding: 0 2rem;
+        left: 50%;
+        transform: translateX(-50%); }
+    .talk-to-us-form {
+      padding: 6.5rem 5rem 9rem 5rem;
+      margin: 20rem 5rem 2rem 5rem; }
+      .talk-to-us-form label {
+        width: 100%;
+        font-size: 2.5rem;
+        margin: 3.5rem 0; }
+      .talk-to-us-form .select {
+        position: relative; }
+        .talk-to-us-form .select select {
+          width: 100%;
+          margin: 3.5rem 0;
+          padding: 2rem 2.5rem;
+          font-size: 2.2rem; }
+          .talk-to-us-form .select select option {
+            padding: 2rem 2.5rem;
+            font-size: 2.2rem; }
+        .talk-to-us-form .select:before {
+          top: 3.8rem;
+          right: 3rem;
+          width: 3rem;
+          height: 6.4rem;
+          line-height: 6.4rem;
+          font-size: 3.5rem; }
+  .shift-down {
+    margin-top: 10rem;
+    width: 100%; }
+  #header-initiatives {
+    height: 18.5rem; }
+  #header-about-us {
+    height: 40rem; }
+  #talk-to-us-initiatives {
+    height: 18.5rem; }
+  #talk-to-us-about-us {
+    height: 40rem; }
+  .main {
+    padding: 0 10rem; }
+    .main-stories-btn {
+      top: 2rem;
+      width: 24rem;
+      right: -5rem; }
+      .main-stories-btn-structure {
+        padding: 1.8rem 0.2rem 1.8rem 1.5rem;
+        font-size: 2rem; }
+        .main-stories-btn-structure svg {
+          top: 0rem;
+          right: 1rem; }
+    .main-stories-row {
+      width: 100%; }
+      .main-stories-row-col-1-of-3 {
+        height: 40rem;
+        width: 100%;
+        z-index: 10;
+        margin-right: 0; }
+        .main-stories-row-col-1-of-3:not(:first-child) {
+          margin-top: 2rem; }
+        .main-stories-row-col-1-of-3-left {
+          height: 40rem;
+          padding: 18rem 3rem 4rem 3.8rem; }
+          .main-stories-row-col-1-of-3-left .right-chevron-round {
+            display: inline-block; }
+          .main-stories-row-col-1-of-3-left-h2 {
+            margin-bottom: 2rem;
+            margin-left: 1.5rem;
+            top: -0.4rem;
+            font-size: 2rem; }
+          .main-stories-row-col-1-of-3-left-h1 {
+            margin-bottom: 4rem;
+            font-size: 2.5rem; }
+          .main-stories-row-col-1-of-3-left-p {
+            font-size: 1.5rem; }
+        .main-stories-row-col-1-of-3-middle {
+          height: 40rem;
+          padding: 18rem 3rem 4rem 3.8rem; }
+          .main-stories-row-col-1-of-3-middle .right-chevron-round {
+            display: inline-block; }
+          .main-stories-row-col-1-of-3-middle-h2 {
+            margin-bottom: 2rem;
+            margin-left: 1.5rem;
+            top: -0.4rem;
+            font-size: 2rem; }
+          .main-stories-row-col-1-of-3-middle-h1 {
+            margin-bottom: 4rem;
+            font-size: 2.5rem; }
+          .main-stories-row-col-1-of-3-middle-p {
+            font-size: 1.5rem; }
+        .main-stories-row-col-1-of-3-right {
+          height: 40rem;
+          padding: 18rem 3rem 4rem 3.8rem; }
+          .main-stories-row-col-1-of-3-right .right-chevron-round {
+            display: inline-block; }
+          .main-stories-row-col-1-of-3-right-h2 {
+            margin-bottom: 2rem;
+            margin-left: 1.5rem;
+            top: -0.4rem;
+            font-size: 2rem; }
+          .main-stories-row-col-1-of-3-right-h1 {
+            margin-bottom: 4rem;
+            font-size: 2.5rem;
+            line-height: 2.9rem; }
+          .main-stories-row-col-1-of-3-right-p {
+            font-size: 1.5rem; }
+    .main-our-mission {
+      margin: 5rem -5rem;
+      padding: 2rem 1rem; }
+      .main-our-mission-heading {
+        font-size: 3.75rem; }
+      .main-our-mission-underline {
+        width: 11.3rem;
+        height: 1.1rem;
+        margin: 2rem auto 1rem auto; }
+      .main-our-mission .fa-quote-left {
+        width: 2.5rem;
+        top: 10rem;
+        left: 4rem; }
+      .main-our-mission .fa-quote-right {
+        width: 2.5rem;
+        bottom: 9rem;
+        right: 4rem; }
+      .main-our-mission-content {
+        font-size: 2.75rem;
+        padding: 0 5rem;
+        margin: 4rem 1rem;
+        line-height: 4.5rem; }
+      .main-our-mission-btn {
+        margin-top: 2rem; }
+        .main-our-mission-btn-structure {
+          width: 30rem;
+          padding: 2rem 1.8rem;
+          font-size: 2rem;
+          margin: 0 auto; }
+    .main-carousel {
+      width: 100vw;
+      margin: 6rem -10rem 6rem -10rem; }
+      .main-carousel-heading {
+        font-size: 3rem; }
+      .main-carousel-underline {
+        width: 10rem;
+        height: 1.1rem;
+        margin: 2rem auto; }
+      .main-carousel-container {
+        padding: 1rem 1rem;
+        height: 40rem; }
+        .main-carousel-container button {
+          margin: 0 2rem;
+          width: 4rem;
+          font-size: 8rem;
+          height: 30rem; }
+        .main-carousel-container-objects {
+          margin: 0; }
+          .main-carousel-container-objects .object {
+            padding: 2rem 2rem;
+            top: 0;
+            left: 0; }
+            .main-carousel-container-objects .object-center-text {
+              font-size: 2.5rem; }
+            .main-carousel-container-objects .object-center-logo {
+              margin-top: 3rem;
+              width: 50%;
+              margin-left: auto;
+              margin-right: auto; }
+              .main-carousel-container-objects .object-center-logo img {
+                width: 5rem; }
+              .main-carousel-container-objects .object-center-logo h1 {
+                font-size: 2rem;
+                margin-top: 1.7rem; }
+              .main-carousel-container-objects .object-center-logo p {
+                font-size: 1.5rem;
+                margin-top: 1rem; }
+  .footer {
+    padding: 4.5rem 1rem 0 1rem; }
+    .footer-navbar-structure .contact-us {
+      width: 50rem; }
+    .footer-navbar-structure-list-a {
+      margin: 0 1rem;
+      width: min-content;
+      margin-top: 1rem; }
+    .footer-navbar-structure-list:first-child {
+      margin-top: 1rem; }
+      .footer-navbar-structure-list:first-child img {
+        width: 3.5rem; }
+    .footer-navbar-structure-list:last-child {
+      margin-top: 0.5rem; }
+    .footer-navbar-structure-list:nth-child(2) {
+      font-size: 2rem;
+      margin-top: 0.7rem;
+      margin-left: 1.5rem;
+      margin-right: 2rem; }
+    .footer-navbar-structure-list-logo {
+      border-radius: 50%; }
+    .footer-navbar-structure-list-button {
+      padding: 1.5rem 3rem; }
+      .footer-navbar-structure-list-button p {
+        font-size: 1.75rem;
+        line-height: 2.1rem; }
+    .footer-copyrights {
+      margin-bottom: 5rem;
+      margin-top: 10rem;
+      font-size: 1.5rem; }
+  .get-involved {
+    width: 95vw;
+    padding: 3.5rem 2rem 5rem 2rem; }
+    .get-involved .window-close {
+      top: -2.5rem;
+      right: 6rem;
+      width: 0rem;
+      height: 0rem;
+      font-size: 7rem;
+      padding: 0; }
+    .get-involved-heading {
+      font-size: 5rem;
+      margin-bottom: 1.2rem; }
+    .get-involved-tagline {
+      font-size: 3rem;
+      margin-bottom: 4.5rem; }
+    .get-involved-button {
+      font-weight: 700; }
+    .get-involved input {
+      width: 100%;
+      margin-top: 2rem;
+      padding: 2rem 2.5rem;
+      font-size: 2.2rem; }
+    .get-involved button {
+      width: 100%;
+      margin-top: 2rem;
+      font-size: 2.5rem;
+      padding: 3rem 4rem; }
+    .get-involved .select select {
+      width: 100%;
+      margin-top: 2.5rem;
+      padding: 2rem 2.5rem;
+      font-size: 2.2rem; }
+      .get-involved .select select option {
+        padding: 2rem 2.5rem;
+        font-size: 2.2rem; }
+    .get-involved .select:before {
+      top: 3rem;
+      right: 0.5rem;
+      width: 4rem;
+      height: 4rem;
+      line-height: 6.5rem;
+      font-size: 3.5rem; } }
+
+@media (max-height: 600px) and (orientation: landscape) {
+  html {
+    font-size: 6px; }
+  .header {
+    height: 115vh;
+    padding: 5rem 10rem 0 10rem; }
+    .header-navbar-structure-list:first-child {
+      margin-top: 1rem; }
+      .header-navbar-structure-list:first-child img {
+        width: 3.5rem; }
+    .header-navbar-structure-list:not(first-child) {
+      margin-top: 0.5rem; }
+    .header-navbar-structure-list:nth-child(2) {
+      font-size: 2rem;
+      margin-top: 0.7rem;
+      margin-left: 1.5rem; }
+    .header-navbar-structure-list-button {
+      padding: 1.5rem 3rem;
+      margin-right: 0;
+      border: none; }
+      .header-navbar-structure-list-button p {
+        font-size: 1.75rem; }
+    .header-navbar-structure-list-drop {
+      font-size: 1.5rem;
+      padding: 1.4rem 1rem;
+      margin-right: 0rem;
+      margin-top: 0.3rem; }
+      .header-navbar-structure-list-drop i {
+        font-size: 1.5rem;
+        margin-left: 0.9rem; }
+    .header-navbar-structure-list-dropdown-triangle-1 {
+      width: 2.5rem;
+      height: 2.5rem;
+      top: 4.5rem;
+      left: 4rem; }
+    .header-navbar-structure-list-dropdown-1 {
+      width: 21.5rem;
+      left: -5rem;
+      top: 5.5rem; }
+      .header-navbar-structure-list-dropdown-1-a {
+        font-size: 1.75rem;
+        margin: 0;
+        padding: 1.5rem 2rem 1.5rem 2.4rem; }
+        .header-navbar-structure-list-dropdown-1-a:last-child {
+          padding-bottom: 2rem; }
+        .header-navbar-structure-list-dropdown-1-a:first-child {
+          padding-top: 2.3rem; }
+    .header-navbar-structure-list-dropdown-triangle-2 {
+      width: 2.5rem;
+      height: 2.5rem;
+      top: 4.5rem;
+      left: 4rem; }
+    .header-navbar-structure-list-dropdown-2 {
+      left: -5rem;
+      top: 5.5rem;
+      width: 21.5rem; }
+      .header-navbar-structure-list-dropdown-2-a {
+        font-size: 1.75rem;
+        margin: 0;
+        padding: 1.5rem 2rem 1.5rem 2.4rem; }
+        .header-navbar-structure-list-dropdown-2-a:last-child {
+          padding-bottom: 2rem; }
+        .header-navbar-structure-list-dropdown-2-a:first-child {
+          padding-top: 2.3rem; }
+    .header-textbox {
+      top: 30%;
+      transform: translateY(-30%); }
+      .header-textbox-heading-secondary {
+        font-size: 2.5rem;
+        margin-bottom: 2.3rem; }
+      .header-textbox-heading-primary {
+        font-size: 5.5rem; }
+    .header-btn {
+      top: 60%;
+      transform: translateY(-60%); }
+      .header-btn-structure {
+        width: 31rem;
+        padding: 2rem 1.8rem 2rem 3rem;
+        font-size: 2.5rem; }
+        .header-btn-structure svg {
+          top: 0.5rem;
+          right: 2rem; }
+  .talk-to-us {
+    height: 115vh;
+    padding: 5rem 10rem 0 10rem;
+    top: 0;
+    left: 0;
+    width: 100%; }
+    .talk-to-us-navbar-structure-list:first-child {
+      margin-top: 1rem; }
+      .talk-to-us-navbar-structure-list:first-child img {
+        width: 3.5rem; }
+    .talk-to-us-navbar-structure-list:not(first-child) {
+      margin-top: 0.5rem; }
+    .talk-to-us-navbar-structure-list:nth-child(2) {
+      font-size: 2rem;
+      margin-top: 0.7rem;
+      margin-left: 1.5rem; }
+    .talk-to-us-navbar-structure-list-button {
+      padding: 1.5rem 3rem;
+      margin-right: 0;
+      border: none; }
+      .talk-to-us-navbar-structure-list-button p {
+        font-size: 1.75rem; }
+    .talk-to-us-navbar-structure-list-drop {
+      font-size: 1.5rem;
+      padding: 1.4rem 1rem;
+      margin-right: 0rem;
+      margin-top: 0.3rem; }
+      .talk-to-us-navbar-structure-list-drop i {
+        font-size: 1.5rem;
+        margin-left: 0.9rem; }
+    .talk-to-us-navbar-structure-list-dropdown-triangle-1 {
+      width: 2.5rem;
+      height: 2.5rem;
+      top: 4.5rem;
+      left: 4rem; }
+    .talk-to-us-navbar-structure-list-dropdown-1 {
+      width: 21.5rem;
+      left: -3rem;
+      top: 5.5rem; }
+      .talk-to-us-navbar-structure-list-dropdown-1-a {
+        font-size: 1.75rem;
+        margin: 0;
+        padding: 1.5rem 2rem 1.5rem 2.4rem; }
+        .talk-to-us-navbar-structure-list-dropdown-1-a:last-child {
+          padding-bottom: 2rem; }
+        .talk-to-us-navbar-structure-list-dropdown-1-a:first-child {
+          padding-top: 2.3rem; }
+    .talk-to-us-navbar-structure-list-dropdown-triangle-2 {
+      width: 2.5rem;
+      height: 2.5rem;
+      top: 4.5rem;
+      left: 4rem; }
+    .talk-to-us-navbar-structure-list-dropdown-2 {
+      left: -3rem;
+      top: 5.5rem;
+      width: 21.5rem; }
+      .talk-to-us-navbar-structure-list-dropdown-2-a {
+        font-size: 1.75rem;
+        margin: 0;
+        padding: 1.5rem 2rem 1.5rem 2.4rem; }
+        .talk-to-us-navbar-structure-list-dropdown-2-a:last-child {
+          padding-bottom: 2rem; }
+        .talk-to-us-navbar-structure-list-dropdown-2-a:first-child {
+          padding-top: 2.3rem; }
+    .talk-to-us-heading {
+      margin-top: 20rem; }
+      .talk-to-us-heading-primary {
+        font-size: 3.5rem;
+        top: -6rem;
+        left: 50%;
+        transform: translateX(-50%); }
+      .talk-to-us-heading-underline {
+        width: 12rem;
+        height: 0.6rem;
+        margin: 13rem auto 0 auto; }
+      .talk-to-us-heading-tagline {
+        font-size: 2.7rem;
+        margin-top: 3rem;
+        width: fit-content;
+        padding: 0 2rem;
+        left: 50%;
+        transform: translateX(-50%); }
+    .talk-to-us-form {
+      padding: 6.5rem 5rem 9rem 5rem;
+      margin: 20rem 5rem 2rem 5rem; }
+      .talk-to-us-form label {
+        width: 100%;
+        font-size: 2.5rem;
+        margin: 3.5rem 0; }
+      .talk-to-us-form .select {
+        position: relative; }
+        .talk-to-us-form .select select {
+          width: 100%;
+          margin: 3.5rem 0;
+          padding: 2rem 2.5rem;
+          font-size: 2.2rem; }
+          .talk-to-us-form .select select option {
+            padding: 2rem 2.5rem;
+            font-size: 2.2rem; }
+        .talk-to-us-form .select:before {
+          top: 3.8rem;
+          right: 3rem;
+          width: 3rem;
+          height: 6.4rem;
+          line-height: 6.4rem;
+          font-size: 3.5rem; }
+  .shift-down {
+    margin-top: 40rem;
+    width: 100%; }
+  #header-initiatives {
+    height: 18.5rem; }
+  #header-about-us {
+    height: 40rem; }
+  #talk-to-us-initiatives {
+    height: 18.5rem; }
+  #talk-to-us-about-us {
+    height: 40rem; }
+  .main {
+    padding: 0 10rem; }
+    .main-stories-btn {
+      top: 2rem;
+      width: 24rem;
+      right: -5rem; }
+      .main-stories-btn-structure {
+        padding: 1.8rem 0.2rem 1.8rem 1.5rem;
+        font-size: 2rem; }
+        .main-stories-btn-structure svg {
+          top: 0rem;
+          right: 1rem; }
+    .main-stories-row {
+      width: 100%; }
+      .main-stories-row-col-1-of-3 {
+        height: 40rem;
+        width: 30%;
+        z-index: 10;
+        margin-right: 4%; }
+        .main-stories-row-col-1-of-3:not(:first-child) {
+          margin-top: 0rem; }
+        .main-stories-row-col-1-of-3:last-child {
+          margin-right: 0; }
+        .main-stories-row-col-1-of-3-left {
+          height: 40rem;
+          padding: 18rem 3rem 4rem 3.8rem; }
+          .main-stories-row-col-1-of-3-left .right-chevron-round {
+            display: inline-block; }
+          .main-stories-row-col-1-of-3-left-h2 {
+            margin-bottom: 2rem;
+            margin-left: 1.5rem;
+            top: -0.4rem;
+            font-size: 2rem; }
+          .main-stories-row-col-1-of-3-left-h1 {
+            margin-bottom: 4rem;
+            font-size: 2.5rem; }
+          .main-stories-row-col-1-of-3-left-p {
+            font-size: 1.5rem; }
+        .main-stories-row-col-1-of-3-middle {
+          height: 40rem;
+          padding: 18rem 3rem 4rem 3.8rem; }
+          .main-stories-row-col-1-of-3-middle .right-chevron-round {
+            display: inline-block; }
+          .main-stories-row-col-1-of-3-middle-h2 {
+            margin-bottom: 2rem;
+            margin-left: 1.5rem;
+            top: -0.4rem;
+            font-size: 2rem; }
+          .main-stories-row-col-1-of-3-middle-h1 {
+            margin-bottom: 4rem;
+            font-size: 2.5rem; }
+          .main-stories-row-col-1-of-3-middle-p {
+            font-size: 1.5rem; }
+        .main-stories-row-col-1-of-3-right {
+          height: 40rem;
+          padding: 18rem 3rem 4rem 3.8rem; }
+          .main-stories-row-col-1-of-3-right .right-chevron-round {
+            display: inline-block; }
+          .main-stories-row-col-1-of-3-right-h2 {
+            margin-bottom: 2rem;
+            margin-left: 1.5rem;
+            top: -0.4rem;
+            font-size: 2rem; }
+          .main-stories-row-col-1-of-3-right-h1 {
+            margin-bottom: 4rem;
+            font-size: 2.5rem;
+            line-height: 2.9rem; }
+          .main-stories-row-col-1-of-3-right-p {
+            font-size: 1.5rem; }
+    .main-our-mission {
+      margin: 5rem 10rem;
+      padding: 2rem 1rem; }
+      .main-our-mission-heading {
+        font-size: 3.75rem; }
+      .main-our-mission-underline {
+        width: 11.3rem;
+        height: 1.1rem;
+        margin: 2rem auto 1rem auto; }
+      .main-our-mission .fa-quote-left {
+        width: 2.5rem;
+        top: 10rem;
+        left: 4rem; }
+      .main-our-mission .fa-quote-right {
+        width: 2.5rem;
+        bottom: 9rem;
+        right: 4rem; }
+      .main-our-mission-content {
+        font-size: 2.75rem;
+        padding: 0 5rem;
+        margin: 4rem 1rem;
+        line-height: 4.5rem; }
+      .main-our-mission-btn {
+        margin-top: 2rem; }
+        .main-our-mission-btn-structure {
+          width: 30rem;
+          padding: 2rem 1.8rem;
+          font-size: 2rem;
+          margin: 0 auto; }
+    .main-carousel {
+      width: 80vw;
+      margin: 6rem 5rem 6rem 5rem; }
+      .main-carousel-heading {
+        font-size: 3rem; }
+      .main-carousel-underline {
+        width: 10rem;
+        height: 1.1rem;
+        margin: 2rem auto; }
+      .main-carousel-container {
+        padding: 1rem 1rem;
+        height: 40rem; }
+        .main-carousel-container button {
+          margin: 0 2rem;
+          width: 4rem;
+          font-size: 8rem;
+          height: 30rem; }
+        .main-carousel-container-objects {
+          margin: 0; }
+          .main-carousel-container-objects .object {
+            padding: 2rem 2rem;
+            top: 0;
+            left: 0; }
+            .main-carousel-container-objects .object-center-text {
+              font-size: 3rem; }
+            .main-carousel-container-objects .object-center-logo {
+              margin-top: 3rem;
+              width: 50%;
+              margin-left: auto;
+              margin-right: auto; }
+              .main-carousel-container-objects .object-center-logo img {
+                width: 5.5rem; }
+              .main-carousel-container-objects .object-center-logo h1 {
+                font-size: 2.5rem;
+                margin-top: 1.7rem; }
+              .main-carousel-container-objects .object-center-logo p {
+                font-size: 2rem;
+                margin-top: 1rem; }
+  .footer {
+    padding: 3rem 10rem 0 10rem; }
+    .footer-navbar-structure .contact-us {
+      width: 50rem; }
+    .footer-navbar-structure-list-a {
+      margin: 0 6rem;
+      width: min-content;
+      margin-top: 1rem; }
+      .footer-navbar-structure-list-a svg {
+        width: 2.5rem; }
+    .footer-navbar-structure-list:first-child {
+      margin-top: 1rem; }
+      .footer-navbar-structure-list:first-child img {
+        width: 4rem; }
+    .footer-navbar-structure-list:last-child {
+      margin-top: 0.5rem; }
+    .footer-navbar-structure-list:nth-child(2) {
+      font-size: 2.5rem;
+      margin-top: 0.7rem;
+      margin-left: 1.5rem;
+      margin-right: 2rem; }
+    .footer-navbar-structure-list-logo {
+      border-radius: 50%; }
+    .footer-navbar-structure-list-button {
+      padding: 1.5rem 3rem; }
+      .footer-navbar-structure-list-button p {
+        font-size: 1.75rem;
+        line-height: 2.1rem; }
+    .footer-copyrights {
+      margin-bottom: 5rem;
+      margin-top: 10rem;
+      font-size: 1.5rem; }
+  .get-involved {
+    width: 60vw;
+    height: 80vh;
+    padding: 4rem 2rem 4rem 2rem; }
+    .get-involved .window-close {
+      top: -2.5rem;
+      right: 6rem;
+      width: 0rem;
+      height: 0rem;
+      font-size: 7rem;
+      padding: 0; }
+    .get-involved-heading {
+      font-size: 3rem;
+      margin-bottom: 1rem; }
+    .get-involved-tagline {
+      font-size: 2rem;
+      margin-bottom: 2.5rem; }
+    .get-involved-button {
+      font-weight: 700; }
+    .get-involved input {
+      width: 100%;
+      margin-top: 2rem;
+      padding: 1.5rem 2.5rem;
+      font-size: 2rem; }
+    .get-involved button {
+      width: 100%;
+      margin-top: 2rem;
+      font-size: 2.2rem;
+      padding: 2.5rem 3.5rem; }
+    .get-involved .select select {
+      width: 100%;
+      margin-top: 2rem;
+      padding: 1.5rem 2.5rem;
+      font-size: 2rem; }
+      .get-involved .select select option {
+        padding: 2rem 2.5rem;
+        font-size: 2.2rem; }
+    .get-involved .select:before {
+      top: 2.2rem;
+      right: 0.5rem;
+      width: 3.5rem;
+      height: 0em;
+      line-height: 6.5rem;
+      font-size: 3.5rem; } }
+
+@media (max-height: 360px) and (orientation: landscape) {
+  html {
+    font-size: 6px; }
+  .header {
+    height: 115vh;
+    padding: 3rem 7rem 0 7rem; }
+    .header-navbar-structure-list:first-child {
+      margin-top: 1rem; }
+      .header-navbar-structure-list:first-child img {
+        width: 3.5rem; }
+    .header-navbar-structure-list:not(first-child) {
+      margin-top: 0.5rem; }
+    .header-navbar-structure-list:nth-child(2) {
+      font-size: 2rem;
+      margin-top: 0.7rem;
+      margin-left: 1.5rem; }
+    .header-navbar-structure-list-button {
+      padding: 1.5rem 3rem;
+      margin-right: 0;
+      border: none; }
+      .header-navbar-structure-list-button p {
+        font-size: 1.75rem; }
+    .header-navbar-structure-list-drop {
+      font-size: 1.5rem;
+      padding: 1.4rem 1rem;
+      margin-right: 0rem;
+      margin-top: 0.3rem; }
+      .header-navbar-structure-list-drop i {
+        font-size: 1.5rem;
+        margin-left: 0.9rem; }
+    .header-navbar-structure-list-dropdown-triangle-1 {
+      width: 2.5rem;
+      height: 2.5rem;
+      top: 4.5rem;
+      left: 4rem; }
+    .header-navbar-structure-list-dropdown-1 {
+      width: 21.5rem;
+      left: -5rem;
+      top: 5.5rem; }
+      .header-navbar-structure-list-dropdown-1-a {
+        font-size: 1.75rem;
+        margin: 0;
+        padding: 1.5rem 2rem 1.5rem 2.4rem; }
+        .header-navbar-structure-list-dropdown-1-a:last-child {
+          padding-bottom: 2rem; }
+        .header-navbar-structure-list-dropdown-1-a:first-child {
+          padding-top: 2.3rem; }
+    .header-navbar-structure-list-dropdown-triangle-2 {
+      width: 2.5rem;
+      height: 2.5rem;
+      top: 4.5rem;
+      left: 4rem; }
+    .header-navbar-structure-list-dropdown-2 {
+      left: -5rem;
+      top: 5.5rem;
+      width: 21.5rem; }
+      .header-navbar-structure-list-dropdown-2-a {
+        font-size: 1.75rem;
+        margin: 0;
+        padding: 1.5rem 2rem 1.5rem 2.4rem; }
+        .header-navbar-structure-list-dropdown-2-a:last-child {
+          padding-bottom: 2rem; }
+        .header-navbar-structure-list-dropdown-2-a:first-child {
+          padding-top: 2.3rem; }
+    .header-textbox {
+      top: 30%;
+      transform: translateY(-30%); }
+      .header-textbox-heading-secondary {
+        font-size: 2.5rem;
+        margin-bottom: 2.3rem; }
+      .header-textbox-heading-primary {
+        font-size: 5.5rem; }
+    .header-btn {
+      top: 60%;
+      transform: translateY(-60%); }
+      .header-btn-structure {
+        width: 31rem;
+        padding: 2rem 1.8rem 2rem 3rem;
+        font-size: 2.5rem; }
+        .header-btn-structure svg {
+          top: 0.5rem;
+          right: 2rem; }
+  .talk-to-us {
+    height: 115vh;
+    padding: 3rem 7rem 0 7rem;
+    top: 0;
+    left: 0;
+    width: 100%; }
+    .talk-to-us-navbar-structure-list:first-child {
+      margin-top: 1rem; }
+      .talk-to-us-navbar-structure-list:first-child img {
+        width: 3.5rem; }
+    .talk-to-us-navbar-structure-list:not(first-child) {
+      margin-top: 0.5rem; }
+    .talk-to-us-navbar-structure-list:nth-child(2) {
+      font-size: 2rem;
+      margin-top: 0.7rem;
+      margin-left: 1.5rem; }
+    .talk-to-us-navbar-structure-list-button {
+      padding: 1.5rem 3rem;
+      margin-right: 0;
+      border: none; }
+      .talk-to-us-navbar-structure-list-button p {
+        font-size: 1.75rem; }
+    .talk-to-us-navbar-structure-list-drop {
+      font-size: 1.5rem;
+      padding: 1.4rem 1rem;
+      margin-right: 0rem;
+      margin-top: 0.3rem; }
+      .talk-to-us-navbar-structure-list-drop i {
+        font-size: 1.5rem;
+        margin-left: 0.9rem; }
+    .talk-to-us-navbar-structure-list-dropdown-triangle-1 {
+      width: 2.5rem;
+      height: 2.5rem;
+      top: 4.5rem;
+      left: 4rem; }
+    .talk-to-us-navbar-structure-list-dropdown-1 {
+      width: 21.5rem;
+      left: -3rem;
+      top: 5.5rem; }
+      .talk-to-us-navbar-structure-list-dropdown-1-a {
+        font-size: 1.75rem;
+        margin: 0;
+        padding: 1.5rem 2rem 1.5rem 2.4rem; }
+        .talk-to-us-navbar-structure-list-dropdown-1-a:last-child {
+          padding-bottom: 2rem; }
+        .talk-to-us-navbar-structure-list-dropdown-1-a:first-child {
+          padding-top: 2.3rem; }
+    .talk-to-us-navbar-structure-list-dropdown-triangle-2 {
+      width: 2.5rem;
+      height: 2.5rem;
+      top: 4.5rem;
+      left: 4rem; }
+    .talk-to-us-navbar-structure-list-dropdown-2 {
+      left: -3rem;
+      top: 5.5rem;
+      width: 21.5rem; }
+      .talk-to-us-navbar-structure-list-dropdown-2-a {
+        font-size: 1.75rem;
+        margin: 0;
+        padding: 1.5rem 2rem 1.5rem 2.4rem; }
+        .talk-to-us-navbar-structure-list-dropdown-2-a:last-child {
+          padding-bottom: 2rem; }
+        .talk-to-us-navbar-structure-list-dropdown-2-a:first-child {
+          padding-top: 2.3rem; }
+    .talk-to-us-heading {
+      margin-top: 20rem; }
+      .talk-to-us-heading-primary {
+        font-size: 3.5rem;
+        top: -6rem;
+        left: 50%;
+        transform: translateX(-50%); }
+      .talk-to-us-heading-underline {
+        width: 12rem;
+        height: 0.6rem;
+        margin: 13rem auto 0 auto; }
+      .talk-to-us-heading-tagline {
+        font-size: 2.7rem;
+        margin-top: 3rem;
+        width: fit-content;
+        padding: 0 2rem;
+        left: 50%;
+        transform: translateX(-50%); }
+    .talk-to-us-form {
+      padding: 6.5rem 5rem 9rem 5rem;
+      margin: 20rem 5rem 2rem 5rem; }
+      .talk-to-us-form label {
+        width: 100%;
+        font-size: 2.5rem;
+        margin: 3.5rem 0; }
+      .talk-to-us-form .select {
+        position: relative; }
+        .talk-to-us-form .select select {
+          width: 100%;
+          margin: 3.5rem 0;
+          padding: 2rem 2.5rem;
+          font-size: 2.2rem; }
+          .talk-to-us-form .select select option {
+            padding: 2rem 2.5rem;
+            font-size: 2.2rem; }
+        .talk-to-us-form .select:before {
+          top: 3.8rem;
+          right: 3rem;
+          width: 3rem;
+          height: 6.4rem;
+          line-height: 6.4rem;
+          font-size: 3.5rem; }
+  .shift-down {
+    margin-top: 40rem;
+    width: 100%; }
+  #header-initiatives {
+    height: 18.5rem; }
+  #header-about-us {
+    height: 40rem; }
+  #talk-to-us-initiatives {
+    height: 18.5rem; }
+  #talk-to-us-about-us {
+    height: 40rem; }
+  .main {
+    padding: 0 25rem; }
+    .main-stories-btn {
+      top: 2rem;
+      width: 24rem;
+      right: -5rem; }
+      .main-stories-btn-structure {
+        padding: 1.8rem 0.2rem 1.8rem 1.5rem;
+        font-size: 2rem; }
+        .main-stories-btn-structure svg {
+          top: 0rem;
+          right: 1rem; }
+    .main-stories-row {
+      width: 100%; }
+      .main-stories-row-col-1-of-3 {
+        height: 40rem;
+        width: 100%;
+        z-index: 10; }
+        .main-stories-row-col-1-of-3:not(:first-child) {
+          margin-top: 3rem; }
+        .main-stories-row-col-1-of-3-left {
+          height: 40rem;
+          padding: 18rem 3rem 4rem 3.8rem; }
+          .main-stories-row-col-1-of-3-left .right-chevron-round {
+            display: inline-block; }
+          .main-stories-row-col-1-of-3-left-h2 {
+            margin-bottom: 2rem;
+            margin-left: 1.5rem;
+            top: -0.4rem;
+            font-size: 2rem; }
+          .main-stories-row-col-1-of-3-left-h1 {
+            margin-bottom: 4rem;
+            font-size: 2.5rem; }
+          .main-stories-row-col-1-of-3-left-p {
+            font-size: 1.5rem; }
+        .main-stories-row-col-1-of-3-middle {
+          height: 40rem;
+          padding: 18rem 3rem 4rem 3.8rem; }
+          .main-stories-row-col-1-of-3-middle .right-chevron-round {
+            display: inline-block; }
+          .main-stories-row-col-1-of-3-middle-h2 {
+            margin-bottom: 2rem;
+            margin-left: 1.5rem;
+            top: -0.4rem;
+            font-size: 2rem; }
+          .main-stories-row-col-1-of-3-middle-h1 {
+            margin-bottom: 4rem;
+            font-size: 2.5rem; }
+          .main-stories-row-col-1-of-3-middle-p {
+            font-size: 1.5rem; }
+        .main-stories-row-col-1-of-3-right {
+          height: 40rem;
+          padding: 18rem 3rem 4rem 3.8rem; }
+          .main-stories-row-col-1-of-3-right .right-chevron-round {
+            display: inline-block; }
+          .main-stories-row-col-1-of-3-right-h2 {
+            margin-bottom: 2rem;
+            margin-left: 1.5rem;
+            top: -0.4rem;
+            font-size: 2rem; }
+          .main-stories-row-col-1-of-3-right-h1 {
+            margin-bottom: 4rem;
+            font-size: 2.5rem;
+            line-height: 2.9rem; }
+          .main-stories-row-col-1-of-3-right-p {
+            font-size: 1.5rem; }
+    .main-our-mission {
+      margin: 5rem -15rem;
+      padding: 2rem 1rem; }
+      .main-our-mission-heading {
+        font-size: 3.75rem; }
+      .main-our-mission-underline {
+        width: 11.3rem;
+        height: 1.1rem;
+        margin: 2rem auto 1rem auto; }
+      .main-our-mission .fa-quote-left {
+        width: 2.5rem;
+        top: 10rem;
+        left: 4rem; }
+      .main-our-mission .fa-quote-right {
+        width: 2.5rem;
+        bottom: 9rem;
+        right: 4rem; }
+      .main-our-mission-content {
+        font-size: 2.75rem;
+        padding: 0 5rem;
+        margin: 4rem 1rem;
+        line-height: 4.5rem; }
+      .main-our-mission-btn {
+        margin-top: 2rem; }
+        .main-our-mission-btn-structure {
+          width: 30rem;
+          padding: 2rem 1.8rem;
+          font-size: 2rem;
+          margin: 0 auto; }
+    .main-carousel {
+      width: 100vw;
+      margin: 6rem -25rem 6rem -25rem; }
+      .main-carousel-heading {
+        font-size: 3rem; }
+      .main-carousel-underline {
+        width: 10rem;
+        height: 1.1rem;
+        margin: 2rem auto; }
+      .main-carousel-container {
+        padding: 1rem 1rem;
+        height: 40rem; }
+        .main-carousel-container button {
+          margin: 0 2rem;
+          width: 4rem;
+          font-size: 8rem;
+          height: 30rem; }
+        .main-carousel-container-objects {
+          margin: 0; }
+          .main-carousel-container-objects .object {
+            padding: 2rem 2rem;
+            top: 0;
+            left: 0; }
+            .main-carousel-container-objects .object-center-text {
+              font-size: 3rem; }
+            .main-carousel-container-objects .object-center-logo {
+              margin-top: 3rem;
+              width: 50%;
+              margin-left: auto;
+              margin-right: auto; }
+              .main-carousel-container-objects .object-center-logo img {
+                width: 5.5rem; }
+              .main-carousel-container-objects .object-center-logo h1 {
+                font-size: 2.5rem;
+                margin-top: 1.7rem; }
+              .main-carousel-container-objects .object-center-logo p {
+                font-size: 2rem;
+                margin-top: 1rem; }
+  .footer {
+    padding: 3rem 7rem 0 7rem; }
+    .footer-navbar-structure .contact-us {
+      width: 50rem; }
+    .footer-navbar-structure-list-a {
+      margin: 0 3rem;
+      width: min-content;
+      margin-top: 1rem; }
+      .footer-navbar-structure-list-a svg {
+        width: 2rem; }
+    .footer-navbar-structure-list:first-child {
+      margin-top: 1rem; }
+      .footer-navbar-structure-list:first-child img {
+        width: 4rem; }
+    .footer-navbar-structure-list:last-child {
+      margin-top: 0.5rem; }
+    .footer-navbar-structure-list:nth-child(2) {
+      font-size: 2.5rem;
+      margin-top: 0.7rem;
+      margin-left: 1.5rem;
+      margin-right: 2rem; }
+    .footer-navbar-structure-list-logo {
+      border-radius: 50%; }
+    .footer-navbar-structure-list-button {
+      padding: 1.5rem 3rem; }
+      .footer-navbar-structure-list-button p {
+        font-size: 1.75rem;
+        line-height: 2.1rem; }
+    .footer-copyrights {
+      margin-bottom: 5rem;
+      margin-top: 10rem;
+      font-size: 1.5rem; }
+  .get-involved {
+    width: 60vw;
+    height: 80vh;
+    padding: 4rem 2rem 4rem 2rem; }
+    .get-involved .window-close {
+      top: -2.5rem;
+      right: 6rem;
+      width: 0rem;
+      height: 0rem;
+      font-size: 7rem;
+      padding: 0; }
+    .get-involved-heading {
+      font-size: 3rem;
+      margin-bottom: 1rem; }
+    .get-involved-tagline {
+      font-size: 2rem;
+      margin-bottom: 2.5rem; }
+    .get-involved-button {
+      font-weight: 700; }
+    .get-involved input {
+      width: 100%;
+      margin-top: 1.5rem;
+      padding: 1rem 2.2rem;
+      font-size: 1.5rem; }
+    .get-involved button {
+      width: 100%;
+      margin-top: 2rem;
+      font-size: 2rem;
+      padding: 2rem 3rem; }
+    .get-involved .select select {
+      width: 100%;
+      margin-top: 1.5rem;
+      padding: 1rem 2.2rem;
+      font-size: 1.5rem; }
+      .get-involved .select select option {
+        padding: 2rem 2.5rem;
+        font-size: 2.2rem; }
+    .get-involved .select:before {
+      top: 0.7rem;
+      right: 0.5rem;
+      width: 3.5rem;
+      height: 0em;
+      line-height: 6.5rem;
+      font-size: 3rem; } }

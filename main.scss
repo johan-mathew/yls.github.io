@@ -1486,7 +1486,7 @@ input:focus{
                 &-dropdown-1
                 {
                     width:21.5rem;
-                    left:-3rem;
+                    left:-5rem;
                     top:5.5rem;                  
                     &-a
                     {
@@ -1513,7 +1513,7 @@ input:focus{
                 }
                 &-dropdown-2
                 {
-                    left:-3rem;
+                    left:-5rem;
                     top:5.5rem;
                     width:21.5rem;
                     &-a
@@ -1537,8 +1537,8 @@ input:focus{
 
     &-textbox
     {
-        top:50%;
-        transform: translateY(-50%);
+        top:40%;
+        transform: translateY(-40%);
         &-heading
         {
             &-secondary
@@ -1555,8 +1555,8 @@ input:focus{
 
     &-btn
     {
-        top:65%;
-        transform: translateY(-65%);
+        top:55%;
+        transform: translateY(-55%);
         &-structure
         {
             width: 31rem;
@@ -2150,3 +2150,2211 @@ input:focus{
     }   
 }
 }
+
+@media (max-width:360px)
+{
+    html
+    {
+        font-size:6px;
+    }
+.header
+{
+    height: 100vh;
+    padding: 2rem 1rem 0 1rem;
+    &-navbar
+    {
+        &-structure 
+        {         
+            &-list
+            {
+                &:first-child
+                {
+                    margin-top: 1rem;
+                    img
+                    {
+                        width:3.5rem;
+                    }
+                }
+                &:not(first-child)
+                { 
+                    margin-top: 0.5rem; 
+                }  
+                &:nth-child(2){
+                    font-size: 2rem;
+                    margin-top: 0.7rem;
+                    margin-left:1.2rem;
+                }    
+                &-button
+                {
+                        padding: 1.5rem 3rem;
+                        margin-right: 0;
+                        border: none;
+                        p
+                        {
+                            font-size: 1.75rem;
+                        }
+                       
+                } 
+                &-drop
+                {
+                    font-size: 1.5rem;
+                    padding: 1.4rem 1rem;
+                    margin-right: 0rem;
+                    margin-top:0.3rem;
+                    i  
+                    {
+                        font-size: 1.5rem;
+                        margin-left:0.9rem;
+                    }
+                } 
+                &-dropdown-triangle-1
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:4rem;
+                    
+                }
+                &-dropdown-1
+                {
+                    width:21.5rem;
+                    left:-5rem;
+                    top:5.5rem;                  
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }
+                }
+                &-dropdown-triangle-2
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:4rem;
+                    
+                }
+                &-dropdown-2
+                {
+                    left:-5rem;
+                    top:5.5rem;
+                    width:21.5rem;
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }                  
+                }
+            }
+        }
+    }
+
+    &-textbox
+    {
+        top:40%;
+        transform: translateY(-40%);
+        &-heading
+        {
+            &-secondary
+            {
+                font-size: 2.5rem;
+                margin-bottom: 2.3rem;
+            }
+            &-primary
+            {
+                font-size: 5.5rem;
+            }
+        }
+    }
+
+    &-btn
+    {
+        top:60%;
+        transform: translateY(-60%);
+        &-structure
+        {
+            width: 31rem;
+            padding: 2rem 1.8rem 2rem 3rem;
+            font-size: 2.5rem;
+            svg
+            {
+                top: 0.5rem;
+                right: 2rem;
+            }
+        }
+    }
+}
+.talk-to-us
+{
+    height: 100vh;
+    padding: 2rem 1rem 0 1rem;
+    top:0;
+    left: 0;
+    width:100%;
+    &-navbar
+    {
+        &-structure 
+        {         
+            &-list
+            {
+                &:first-child
+                {
+                    margin-top: 1rem;
+                    img
+                    {
+                        width:3.5rem;
+                    }
+                }
+                &:not(first-child)
+                { 
+                    margin-top: 0.5rem; 
+                }  
+                &:nth-child(2){
+                    font-size: 2rem;
+                    margin-top: 0.7rem;
+                    margin-left:1.5rem;
+                }    
+                &-button
+                {
+                        padding: 1.5rem 3rem;
+                        margin-right: 0;
+                        border: none;
+                        p
+                        {
+                            font-size: 1.75rem;
+                        }
+                       
+                } 
+                &-drop
+                {
+                    font-size: 1.5rem;
+                    padding: 1.4rem 1rem;
+                    margin-right: 0rem;
+                    margin-top:0.3rem;
+                    i  
+                    {
+                        font-size: 1.5rem;
+                        margin-left:0.9rem;
+                    }
+                } 
+                &-dropdown-triangle-1
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:4rem;
+                    
+                }
+                &-dropdown-1
+                {
+                    width:21.5rem;
+                    left:-3rem;
+                    top:5.5rem;                  
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }
+                }
+                &-dropdown-triangle-2
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:4rem;
+                    
+                }
+                &-dropdown-2
+                {
+                    left:-3rem;
+                    top:5.5rem;
+                    width:21.5rem;
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }                  
+                }
+            }
+        }
+    }
+    &-heading
+    {
+        margin-top:20rem;
+        &-primary
+        {
+            font-size: 3.5rem;
+            top:-6rem;
+            left:50%;
+            transform: translateX(-50%);
+        }
+        &-underline
+        {
+            width:12rem;
+            height: 0.6rem;
+            margin:13rem auto 0 auto;
+        }
+        &-tagline
+        {
+            font-size:2.7rem;
+            margin-top:3rem;
+            width: fit-content;
+            padding:0 2rem;
+            left:50%;
+            transform: translateX(-50%);
+        }
+    }
+    &-form
+    {
+        padding:6.5rem 5rem 9rem 5rem;
+        margin: 20rem 5rem 2rem 5rem;
+        label
+        {
+            width:100%;
+            font-size:2.5rem;
+            margin:3.5rem 0;
+        }
+        .select
+        {
+            position: relative;
+            select
+            {
+                width:100%;
+                margin: 3.5rem 0;
+                padding: 2rem 2.5rem;
+                font-size: 2.2rem;
+                option
+                {
+                    padding: 2rem 2.5rem;
+                    font-size: 2.2rem;
+                }
+            }
+            &:before
+            {
+
+                top: 3.8rem;
+                right: 3rem;
+                width: 3rem;
+                height: 6.4rem;
+                line-height: 6.4rem;
+                font-size:3.5rem;
+            }
+        }    
+    }
+}    
+.shift-down
+{
+    margin-top:10rem;
+    width: 100%;
+}
+#header-initiatives
+{
+    height:18.5rem;
+}
+#header-about-us
+{
+    height:40rem;
+}
+#talk-to-us-initiatives
+{
+    height:18.5rem;
+}
+#talk-to-us-about-us
+{
+    height:40rem;
+}
+.main
+{
+    padding:0 10rem;
+    &-stories
+    {   
+        &-btn
+        {
+            top:2rem;
+            width:24rem;
+            right:-5rem;
+            &-structure
+            {
+                padding: 1.8rem 0.2rem 1.8rem 1.5rem;
+                font-size: 2rem;
+                &-text
+                {
+                }
+                svg
+                {
+                    top: 0rem;
+                    right: 1rem;
+                }
+
+            }
+        }
+        &-row
+        {
+            width: 100%;
+            &-col-1-of-3
+            {
+         
+                height: 40rem;
+                width:100%;
+                z-index: 10;
+                margin-right:0;
+                &:not(:first-child)
+                {
+                    margin-top: 2rem;
+                }
+                &-left
+                {
+                    height: 40rem;
+                    padding:18rem 3rem 4rem 3.8rem;                   
+                    .right-chevron-round
+                    {
+                        display: inline-block;
+                    }
+                    &-h2
+                    {
+                        margin-bottom: 2rem;
+                        margin-left: 1.5rem;
+                        top:-0.4rem;
+                        font-size: 2rem;
+                    }
+
+                    &-h1
+                    {
+                        margin-bottom: 4rem;
+                        font-size: 2.5rem;
+                    }
+                    &-p
+                    {
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                        }
+                    }       
+                }
+                &-middle
+                {
+                    height: 40rem;
+                    padding:18rem 3rem 4rem 3.8rem; 
+                    .right-chevron-round
+                    {
+                        display: inline-block;
+                    }
+                    &-h2
+                    {
+                        margin-bottom: 2rem;
+                        margin-left: 1.5rem;
+                        top:-0.4rem;
+                        font-size: 2rem;
+                    }
+
+
+                    &-h1
+                    {
+                        margin-bottom: 4rem;
+                        font-size: 2.5rem;
+                    }
+                    &-p
+                    {
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                        }
+                    }       
+                }
+                &-right
+                {
+                    height: 40rem;
+                    padding:18rem 3rem 4rem 3.8rem; 
+                    .right-chevron-round
+                    {
+                        display: inline-block;
+                    }
+                    &-h2
+                    {
+                        margin-bottom: 2rem;
+                        margin-left: 1.5rem;
+                        top:-0.4rem;
+                        font-size: 2rem;
+                    }
+
+                    &-h1
+                    {
+                        margin-bottom: 4rem;
+                        font-size: 2.5rem;
+                        line-height: 2.9rem;
+
+                    }
+                    &-p
+                    {
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                        }
+                    }       
+                }
+            }
+        }
+    }
+    &-our-mission
+    {
+        margin:5rem -5rem;
+        padding: 2rem 1rem;
+        &-heading
+        {
+            font-size: 3.75rem;
+        }
+        &-underline
+        {
+            width:11.3rem;
+            height: 1.1rem;
+            margin:2rem auto 1rem auto;
+        }
+        .fa-quote-left
+        {
+            width:2.5rem;
+            top: 10rem;
+            left:4rem;
+        }
+        .fa-quote-right
+        {
+            width:2.5rem;
+            bottom: 9rem;
+            right:4rem;
+        }
+        &-content
+        {
+            font-size: 2.75rem;
+            padding:0 5rem;
+            margin:4rem 1rem;
+            line-height: 4.5rem;   
+        }
+        &-btn
+        {
+            margin-top: 2rem;
+            &-structure
+            {
+                width: 30rem;
+                padding: 2rem 1.8rem;
+                font-size: 2rem;
+                margin:0 auto;
+                &-inner-text
+                {
+                }
+            }
+        }
+    }
+    &-carousel
+    {
+        // margin:6rem 1rem;
+        width:100vw;
+        margin:6rem -10rem 6rem -10rem;     
+        &-heading
+        {
+            font-size: 3rem;
+        }
+        &-underline
+        {
+            width:10rem;
+            height: 1.1rem;
+            margin:2rem auto;
+        }
+        &-container
+        {
+            padding:1rem 1rem;
+            height: 40rem;
+            button
+            {
+                margin: 0 2rem;
+                width: 4rem;
+                font-size: 8rem;
+                height: 30rem;
+            }
+            &-objects
+            {
+                margin: 0;
+                .object
+                {
+                    padding:2rem 2rem;
+                    top:0;
+                    left:0;
+                    &-center
+                    {
+
+                        &-text
+                        {
+                            font-size: 2.5rem;
+                        }
+                        &-logo
+                        {
+                            margin-top: 3rem;
+                            width:50%;
+                            margin-left: auto;
+                            margin-right: auto;
+                            img
+                            {
+                                width: 5rem;
+                            }
+                            h1
+                            {
+                                font-size: 2rem;
+                                margin-top: 1.7rem;
+                            }
+                            p
+                            {
+                                font-size: 1.5rem;
+                                margin-top: 1rem;
+                                span
+                                {
+                                }
+                            }    
+                        }   
+                    }
+                    
+                    
+                }
+            }
+        }
+    }
+}
+.footer
+{
+    padding: 4.5rem 1rem 0 1rem;
+    &-navbar
+    {
+        &-structure 
+        {         
+            .contact-us
+            {
+                width: 50rem;
+            }
+            &-list
+            {
+                &-a
+                {
+                    margin:0 1rem;
+                    width: min-content;
+                    margin-top:1rem;
+                }
+                &:first-child
+                {
+                    margin-top: 1rem;
+                    img
+                    {
+                        width:3.5rem;
+                    }
+                }
+                &:last-child
+                {   
+                    margin-top: 0.5rem; 
+                }  
+                &:nth-child(2)
+                {
+                    font-size: 2rem;
+                    margin-top: 0.7rem;
+                    margin-left:1.5rem;
+                    margin-right: 2rem;
+                }    
+                &-logo
+                {
+                    border-radius: 50%;
+                }
+                &-button
+                {
+                    padding: 1.5rem 3rem;
+                    p
+                    {
+                        font-size: 1.75rem;
+                        line-height: 2.1rem;
+                    }
+                       
+                } 
+            }
+        }
+    }
+    &-copyrights
+    {
+        margin-bottom:5rem;
+        margin-top:10rem;
+        font-size: 1.5rem;
+    }
+}      
+.get-involved
+{
+    width:95vw;
+    padding: 3.5rem 2rem 5rem 2rem;
+    .window-close
+    {
+        top:-2.5rem;
+        right: 6rem;
+        width:0rem;
+        height: 0rem;
+        font-size: 7rem;
+        padding: 0;
+    }
+    &-heading
+    {
+        font-size: 5rem;
+        margin-bottom: 1.2rem;
+    }
+    &-tagline
+    {
+        font-size: 3rem;
+        margin-bottom: 4.5rem;
+    }
+    &-button
+    {
+        font-weight: 700;
+    }
+    input
+    {
+        width:100%;
+        margin-top: 2rem;
+        padding: 2rem 2.5rem;
+        font-size: 2.2rem;
+    }
+    button
+    {
+        width:100%;
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        padding:3rem 4rem; 
+    }
+    .select
+    {
+        select
+        {
+            width:100%;
+            margin-top: 2.5rem;
+            padding: 2rem 2.5rem;
+            font-size: 2.2rem;
+            option
+            {
+                padding: 2rem 2.5rem;
+                font-size: 2.2rem;
+            }
+        }
+        &:before
+        {
+            top: 3rem;
+            right: 0.5rem;
+            width: 4rem;
+            height: 4rem;
+            line-height: 6.5rem;
+            font-size:3.5rem;
+        }
+        
+    }   
+}
+}
+@media (max-height:600px) and (orientation:landscape)
+{
+    html
+    {
+        font-size:6px;
+    }
+.header
+{
+    height: 115vh;
+    padding: 5rem 10rem 0 10rem;
+    &-navbar
+    {
+        &-structure 
+        {         
+            &-list
+            {
+                &:first-child
+                {
+                    margin-top: 1rem;
+                    img
+                    {
+                        width:3.5rem;
+                    }
+                }
+                &:not(first-child)
+                { 
+                    margin-top: 0.5rem; 
+                }  
+                &:nth-child(2){
+                    font-size: 2rem;
+                    margin-top: 0.7rem;
+                    margin-left:1.5rem;
+                }    
+                &-button
+                {
+                        padding: 1.5rem 3rem;
+                        margin-right: 0;
+                        border: none;
+                        p
+                        {
+                            font-size: 1.75rem;
+                        }
+                       
+                } 
+                &-drop
+                {
+                    font-size: 1.5rem;
+                    padding: 1.4rem 1rem;
+                    margin-right: 0rem;
+                    margin-top:0.3rem;
+                    i  
+                    {
+                        font-size: 1.5rem;
+                        margin-left:0.9rem;
+                    }
+                } 
+                &-dropdown-triangle-1
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:4rem;
+                    
+                }
+                &-dropdown-1
+                {
+                    width:21.5rem;
+                    left:-5rem;
+                    top:5.5rem;                  
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }
+                }
+                &-dropdown-triangle-2
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:4rem;
+                    
+                }
+                &-dropdown-2
+                {
+                    left:-5rem;
+                    top:5.5rem;
+                    width:21.5rem;
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }                  
+                }
+            }
+        }
+    }
+
+    &-textbox
+    {
+        top:30%;
+        transform: translateY(-30%);
+        &-heading
+        {
+            &-secondary
+            {
+                font-size: 2.5rem;
+                margin-bottom: 2.3rem;
+            }
+            &-primary
+            {
+                font-size: 5.5rem;
+            }
+        }
+    }
+
+    &-btn
+    {
+        top:60%;
+        transform: translateY(-60%);
+        &-structure
+        {
+            width: 31rem;
+            padding: 2rem 1.8rem 2rem 3rem;
+            font-size: 2.5rem;
+            svg
+            {
+                top: 0.5rem;
+                right: 2rem;
+            }
+        }
+    }
+}
+.talk-to-us
+{
+    height: 115vh;
+    padding: 5rem 10rem 0 10rem;
+    top:0;
+    left: 0;
+    width:100%;
+    &-navbar
+    {
+        &-structure 
+        {         
+            &-list
+            {
+                &:first-child
+                {
+                    margin-top: 1rem;
+                    img
+                    {
+                        width:3.5rem;
+                    }
+                }
+                &:not(first-child)
+                { 
+                    margin-top: 0.5rem; 
+                }  
+                &:nth-child(2){
+                    font-size: 2rem;
+                    margin-top: 0.7rem;
+                    margin-left:1.5rem;
+                }    
+                &-button
+                {
+                        padding: 1.5rem 3rem;
+                        margin-right: 0;
+                        border: none;
+                        p
+                        {
+                            font-size: 1.75rem;
+                        }
+                       
+                } 
+                &-drop
+                {
+                    font-size: 1.5rem;
+                    padding: 1.4rem 1rem;
+                    margin-right: 0rem;
+                    margin-top:0.3rem;
+                    i  
+                    {
+                        font-size: 1.5rem;
+                        margin-left:0.9rem;
+                    }
+                } 
+                &-dropdown-triangle-1
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:4rem;
+                    
+                }
+                &-dropdown-1
+                {
+                    width:21.5rem;
+                    left:-3rem;
+                    top:5.5rem;                  
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }
+                }
+                &-dropdown-triangle-2
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:4rem;
+                    
+                }
+                &-dropdown-2
+                {
+                    left:-3rem;
+                    top:5.5rem;
+                    width:21.5rem;
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }                  
+                }
+            }
+        }
+    }
+    &-heading
+    {
+        margin-top:20rem;
+        &-primary
+        {
+            font-size: 3.5rem;
+            top:-6rem;
+            left:50%;
+            transform: translateX(-50%);
+        }
+        &-underline
+        {
+            width:12rem;
+            height: 0.6rem;
+            margin:13rem auto 0 auto;
+        }
+        &-tagline
+        {
+            font-size:2.7rem;
+            margin-top:3rem;
+            width: fit-content;
+            padding:0 2rem;
+            left:50%;
+            transform: translateX(-50%);
+        }
+    }
+    &-form
+    {
+        padding:6.5rem 5rem 9rem 5rem;
+        margin: 20rem 5rem 2rem 5rem;
+        label
+        {
+            width:100%;
+            font-size:2.5rem;
+            margin:3.5rem 0;
+        }
+        .select
+        {
+            position: relative;
+            select
+            {
+                width:100%;
+                margin: 3.5rem 0;
+                padding: 2rem 2.5rem;
+                font-size: 2.2rem;
+                option
+                {
+                    padding: 2rem 2.5rem;
+                    font-size: 2.2rem;
+                }
+            }
+            &:before
+            {
+
+                top: 3.8rem;
+                right: 3rem;
+                width: 3rem;
+                height: 6.4rem;
+                line-height: 6.4rem;
+                font-size:3.5rem;
+            }
+        }    
+    }
+}    
+.shift-down
+{
+    margin-top:40rem;
+    width: 100%;
+}
+#header-initiatives
+{
+    height:18.5rem;
+}
+#header-about-us
+{
+    height:40rem;
+}
+#talk-to-us-initiatives
+{
+    height:18.5rem;
+}
+#talk-to-us-about-us
+{
+    height:40rem;
+}
+.main
+{
+    padding:0 10rem;
+    &-stories
+    {   
+        &-btn
+        {
+            top:2rem;
+            width:24rem;
+            right:-5rem;
+            &-structure
+            {
+                padding: 1.8rem 0.2rem 1.8rem 1.5rem;
+                font-size: 2rem;
+                &-text
+                {
+                }
+                svg
+                {
+                    top: 0rem;
+                    right: 1rem;
+                }
+
+            }
+        }
+        &-row
+        {
+            width: 100%;
+            &-col-1-of-3
+            {
+         
+                height: 40rem;
+                width:30%;
+                z-index: 10;
+                margin-right:4%;
+                &:not(:first-child)
+                {
+                    margin-top: 0rem;
+                }
+                &:last-child
+                {
+                    margin-right:0;
+                }
+                &-left
+                {
+                    height: 40rem;
+                    padding:18rem 3rem 4rem 3.8rem;                   
+                    .right-chevron-round
+                    {
+                        display: inline-block;
+                    }
+                    &-h2
+                    {
+                        margin-bottom: 2rem;
+                        margin-left: 1.5rem;
+                        top:-0.4rem;
+                        font-size: 2rem;
+                    }
+
+                    &-h1
+                    {
+                        margin-bottom: 4rem;
+                        font-size: 2.5rem;
+                    }
+                    &-p
+                    {
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                        }
+                    }       
+                }
+                &-middle
+                {
+                    height: 40rem;
+                    padding:18rem 3rem 4rem 3.8rem; 
+                    .right-chevron-round
+                    {
+                        display: inline-block;
+                    }
+                    &-h2
+                    {
+                        margin-bottom: 2rem;
+                        margin-left: 1.5rem;
+                        top:-0.4rem;
+                        font-size: 2rem;
+                    }
+
+
+                    &-h1
+                    {
+                        margin-bottom: 4rem;
+                        font-size: 2.5rem;
+                    }
+                    &-p
+                    {
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                        }
+                    }       
+                }
+                &-right
+                {
+                    height: 40rem;
+                    padding:18rem 3rem 4rem 3.8rem; 
+                    .right-chevron-round
+                    {
+                        display: inline-block;
+                    }
+                    &-h2
+                    {
+                        margin-bottom: 2rem;
+                        margin-left: 1.5rem;
+                        top:-0.4rem;
+                        font-size: 2rem;
+                    }
+
+                    &-h1
+                    {
+                        margin-bottom: 4rem;
+                        font-size: 2.5rem;
+                        line-height: 2.9rem;
+
+                    }
+                    &-p
+                    {
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                        }
+                    }       
+                }
+            }
+        }
+    }
+    &-our-mission
+    {
+        margin:5rem 10rem;
+        padding: 2rem 1rem;
+        &-heading
+        {
+            font-size: 3.75rem;
+        }
+        &-underline
+        {
+            width:11.3rem;
+            height: 1.1rem;
+            margin:2rem auto 1rem auto;
+        }
+        .fa-quote-left
+        {
+            width:2.5rem;
+            top: 10rem;
+            left:4rem;
+        }
+        .fa-quote-right
+        {
+            width:2.5rem;
+            bottom: 9rem;
+            right:4rem;
+        }
+        &-content
+        {
+            font-size: 2.75rem;
+            padding:0 5rem;
+            margin:4rem 1rem;
+            line-height: 4.5rem;   
+        }
+        &-btn
+        {
+            margin-top: 2rem;
+            &-structure
+            {
+                width: 30rem;
+                padding: 2rem 1.8rem;
+                font-size: 2rem;
+                margin:0 auto;
+                &-inner-text
+                {
+                }
+            }
+        }
+    }
+    &-carousel
+    {
+        // margin:6rem 1rem;
+        width:80vw;
+        margin:6rem 5rem 6rem 5rem;     
+        &-heading
+        {
+            font-size: 3rem;
+        }
+        &-underline
+        {
+            width:10rem;
+            height: 1.1rem;
+            margin:2rem auto;
+        }
+        &-container
+        {
+            padding:1rem 1rem;
+            height: 40rem;
+            button
+            {
+                margin: 0 2rem;
+                width: 4rem;
+                font-size: 8rem;
+                height: 30rem;
+            }
+            &-objects
+            {
+                margin: 0;
+                .object
+                {
+                    padding:2rem 2rem;
+                    top:0;
+                    left:0;
+                    &-center
+                    {
+
+                        &-text
+                        {
+                            font-size: 3rem;
+                        }
+                        &-logo
+                        {
+                            margin-top: 3rem;
+                            width:50%;
+                            margin-left: auto;
+                            margin-right: auto;
+                            img
+                            {
+                                width: 5.5rem;
+                            }
+                            h1
+                            {
+                                font-size: 2.5rem;
+                                margin-top: 1.7rem;
+                            }
+                            p
+                            {
+                                font-size: 2rem;
+                                margin-top: 1rem;
+                                span
+                                {
+                                }
+                            }    
+                        }   
+                    }
+                    
+                    
+                }
+            }
+        }
+    }
+}
+.footer
+{
+    padding: 3rem 10rem 0 10rem;
+    &-navbar
+    {
+        &-structure 
+        {         
+            .contact-us
+            {
+                width: 50rem;
+            }
+            &-list
+            {
+                &-a
+                {
+                    margin:0 6rem;
+                    width: min-content;
+                    margin-top:1rem;
+                    svg
+                    {   
+                        width:2.5rem;
+                    }
+                }
+                &:first-child
+                {
+                    margin-top: 1rem;
+                    img
+                    {
+                        width:4rem;
+                    }
+                }
+                &:last-child
+                {   
+                    margin-top: 0.5rem; 
+                }  
+                &:nth-child(2)
+                {
+                    font-size: 2.5rem;
+                    margin-top: 0.7rem;
+                    margin-left:1.5rem;
+                    margin-right: 2rem;
+                }    
+                &-logo
+                {
+                    border-radius: 50%;
+                }
+                &-button
+                {
+                    padding: 1.5rem 3rem;
+                    p
+                    {
+                        font-size: 1.75rem;
+                        line-height: 2.1rem;
+                    }
+                       
+                } 
+            }
+        }
+    }
+    &-copyrights
+    {
+        margin-bottom:5rem;
+        margin-top:10rem;
+        font-size: 1.5rem;
+    }
+}      
+.get-involved
+{
+    width:60vw;
+    height:80vh;
+    padding: 4rem 2rem 4rem 2rem;
+    .window-close
+    {
+        top:-2.5rem;
+        right: 6rem;
+        width:0rem;
+        height: 0rem;
+        font-size: 7rem;
+        padding: 0;
+    }
+    &-heading
+    {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    &-tagline
+    {
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+    }
+    &-button
+    {
+        font-weight: 700;
+    }
+    input
+    {
+        width:100%;
+        margin-top: 2rem;
+        padding: 1.5rem 2.5rem;
+        font-size: 2rem;
+    }
+    button
+    {
+        width:100%;
+        margin-top: 2rem;
+        font-size: 2.2rem;
+        padding:2.5rem 3.5rem; 
+    }
+    .select
+    {
+        select
+        {
+            width:100%;
+            margin-top: 2rem;
+            padding: 1.5rem 2.5rem;
+            font-size: 2rem;
+            option
+            {
+                padding: 2rem 2.5rem;
+                font-size: 2.2rem;
+            }
+        }
+        &:before
+        {
+            top: 2.2rem;
+            right: 0.5rem;
+            width: 3.5rem;
+            height: 0em;
+            line-height: 6.5rem;
+            font-size:3.5rem;
+        }
+        
+    }   
+}
+}
+@media (max-height:360px) and (orientation:landscape)
+{
+    html
+    {
+        font-size:6px;
+    }
+.header
+{
+    height: 115vh;
+    padding: 3rem 7rem 0 7rem;
+    &-navbar
+    {
+        &-structure 
+        {         
+            &-list
+            {
+                &:first-child
+                {
+                    margin-top: 1rem;
+                    img
+                    {
+                        width:3.5rem;
+                    }
+                }
+                &:not(first-child)
+                { 
+                    margin-top: 0.5rem; 
+                }  
+                &:nth-child(2){
+                    font-size: 2rem;
+                    margin-top: 0.7rem;
+                    margin-left:1.5rem;
+                }    
+                &-button
+                {
+                        padding: 1.5rem 3rem;
+                        margin-right: 0;
+                        border: none;
+                        p
+                        {
+                            font-size: 1.75rem;
+                        }
+                       
+                } 
+                &-drop
+                {
+                    font-size: 1.5rem;
+                    padding: 1.4rem 1rem;
+                    margin-right: 0rem;
+                    margin-top:0.3rem;
+                    i  
+                    {
+                        font-size: 1.5rem;
+                        margin-left:0.9rem;
+                    }
+                } 
+                &-dropdown-triangle-1
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:4rem;
+                    
+                }
+                &-dropdown-1
+                {
+                    width:21.5rem;
+                    left:-5rem;
+                    top:5.5rem;                  
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }
+                }
+                &-dropdown-triangle-2
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:4rem;
+                    
+                }
+                &-dropdown-2
+                {
+                    left:-5rem;
+                    top:5.5rem;
+                    width:21.5rem;
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }                  
+                }
+            }
+        }
+    }
+
+    &-textbox
+    {
+        top:30%;
+        transform: translateY(-30%);
+        &-heading
+        {
+            &-secondary
+            {
+                font-size: 2.5rem;
+                margin-bottom: 2.3rem;
+            }
+            &-primary
+            {
+                font-size: 5.5rem;
+            }
+        }
+    }
+
+    &-btn
+    {
+        top:60%;
+        transform: translateY(-60%);
+        &-structure
+        {
+            width: 31rem;
+            padding: 2rem 1.8rem 2rem 3rem;
+            font-size: 2.5rem;
+            svg
+            {
+                top: 0.5rem;
+                right: 2rem;
+            }
+        }
+    }
+}
+.talk-to-us
+{
+    height: 115vh;
+    padding: 3rem 7rem 0 7rem;
+    top:0;
+    left: 0;
+    width:100%;
+    &-navbar
+    {
+        &-structure 
+        {         
+            &-list
+            {
+                &:first-child
+                {
+                    margin-top: 1rem;
+                    img
+                    {
+                        width:3.5rem;
+                    }
+                }
+                &:not(first-child)
+                { 
+                    margin-top: 0.5rem; 
+                }  
+                &:nth-child(2){
+                    font-size: 2rem;
+                    margin-top: 0.7rem;
+                    margin-left:1.5rem;
+                }    
+                &-button
+                {
+                        padding: 1.5rem 3rem;
+                        margin-right: 0;
+                        border: none;
+                        p
+                        {
+                            font-size: 1.75rem;
+                        }
+                       
+                } 
+                &-drop
+                {
+                    font-size: 1.5rem;
+                    padding: 1.4rem 1rem;
+                    margin-right: 0rem;
+                    margin-top:0.3rem;
+                    i  
+                    {
+                        font-size: 1.5rem;
+                        margin-left:0.9rem;
+                    }
+                } 
+                &-dropdown-triangle-1
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:4rem;
+                    
+                }
+                &-dropdown-1
+                {
+                    width:21.5rem;
+                    left:-3rem;
+                    top:5.5rem;                  
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }
+                }
+                &-dropdown-triangle-2
+                {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    top:4.5rem;
+                    left:4rem;
+                    
+                }
+                &-dropdown-2
+                {
+                    left:-3rem;
+                    top:5.5rem;
+                    width:21.5rem;
+                    &-a
+                    {
+                        font-size: 1.75rem;
+                        margin:0;
+                        padding: 1.5rem 2rem 1.5rem 2.4rem;
+                        &:last-child
+                        {
+                            padding-bottom: 2rem;
+                        }
+                        &:first-child
+                        {
+                            padding-top: 2.3rem;
+                        }
+                    }                  
+                }
+            }
+        }
+    }
+    &-heading
+    {
+        margin-top:20rem;
+        &-primary
+        {
+            font-size: 3.5rem;
+            top:-6rem;
+            left:50%;
+            transform: translateX(-50%);
+        }
+        &-underline
+        {
+            width:12rem;
+            height: 0.6rem;
+            margin:13rem auto 0 auto;
+        }
+        &-tagline
+        {
+            font-size:2.7rem;
+            margin-top:3rem;
+            width: fit-content;
+            padding:0 2rem;
+            left:50%;
+            transform: translateX(-50%);
+        }
+    }
+    &-form
+    {
+        padding:6.5rem 5rem 9rem 5rem;
+        margin: 20rem 5rem 2rem 5rem;
+        label
+        {
+            width:100%;
+            font-size:2.5rem;
+            margin:3.5rem 0;
+        }
+        .select
+        {
+            position: relative;
+            select
+            {
+                width:100%;
+                margin: 3.5rem 0;
+                padding: 2rem 2.5rem;
+                font-size: 2.2rem;
+                option
+                {
+                    padding: 2rem 2.5rem;
+                    font-size: 2.2rem;
+                }
+            }
+            &:before
+            {
+
+                top: 3.8rem;
+                right: 3rem;
+                width: 3rem;
+                height: 6.4rem;
+                line-height: 6.4rem;
+                font-size:3.5rem;
+            }
+        }    
+    }
+}    
+.shift-down
+{
+    margin-top:40rem;
+    width: 100%;
+}
+#header-initiatives
+{
+    height:18.5rem;
+}
+#header-about-us
+{
+    height:40rem;
+}
+#talk-to-us-initiatives
+{
+    height:18.5rem;
+}
+#talk-to-us-about-us
+{
+    height:40rem;
+}
+.main
+{
+    padding:0 25rem;
+    &-stories
+    {   
+        &-btn
+        {
+            top:2rem;
+            width:24rem;
+            right:-5rem;
+            &-structure
+            {
+                padding: 1.8rem 0.2rem 1.8rem 1.5rem;
+                font-size: 2rem;
+                &-text
+                {
+                }
+                svg
+                {
+                    top: 0rem;
+                    right: 1rem;
+                }
+
+            }
+        }
+        &-row
+        {
+            width: 100%;
+            &-col-1-of-3
+            {
+         
+                height: 40rem;
+                width:100%;
+                z-index: 10;
+                &:not(:first-child)
+                {
+                    margin-top: 3rem;
+                }
+                &-left
+                {
+                    height: 40rem;
+                    padding:18rem 3rem 4rem 3.8rem;                   
+                    .right-chevron-round
+                    {
+                        display: inline-block;
+                    }
+                    &-h2
+                    {
+                        margin-bottom: 2rem;
+                        margin-left: 1.5rem;
+                        top:-0.4rem;
+                        font-size: 2rem;
+                    }
+
+                    &-h1
+                    {
+                        margin-bottom: 4rem;
+                        font-size: 2.5rem;
+                    }
+                    &-p
+                    {
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                        }
+                    }       
+                }
+                &-middle
+                {
+                    height: 40rem;
+                    padding:18rem 3rem 4rem 3.8rem; 
+                    .right-chevron-round
+                    {
+                        display: inline-block;
+                    }
+                    &-h2
+                    {
+                        margin-bottom: 2rem;
+                        margin-left: 1.5rem;
+                        top:-0.4rem;
+                        font-size: 2rem;
+                    }
+
+
+                    &-h1
+                    {
+                        margin-bottom: 4rem;
+                        font-size: 2.5rem;
+                    }
+                    &-p
+                    {
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                        }
+                    }       
+                }
+                &-right
+                {
+                    height: 40rem;
+                    padding:18rem 3rem 4rem 3.8rem; 
+                    .right-chevron-round
+                    {
+                        display: inline-block;
+                    }
+                    &-h2
+                    {
+                        margin-bottom: 2rem;
+                        margin-left: 1.5rem;
+                        top:-0.4rem;
+                        font-size: 2rem;
+                    }
+
+                    &-h1
+                    {
+                        margin-bottom: 4rem;
+                        font-size: 2.5rem;
+                        line-height: 2.9rem;
+
+                    }
+                    &-p
+                    {
+                        font-size: 1.5rem;
+                        &-date
+                        {
+                        }
+                    }       
+                }
+            }
+        }
+    }
+    &-our-mission
+    {
+        margin:5rem -15rem;
+        padding: 2rem 1rem;
+        &-heading
+        {
+            font-size: 3.75rem;
+        }
+        &-underline
+        {
+            width:11.3rem;
+            height: 1.1rem;
+            margin:2rem auto 1rem auto;
+        }
+        .fa-quote-left
+        {
+            width:2.5rem;
+            top: 10rem;
+            left:4rem;
+        }
+        .fa-quote-right
+        {
+            width:2.5rem;
+            bottom: 9rem;
+            right:4rem;
+        }
+        &-content
+        {
+            font-size: 2.75rem;
+            padding:0 5rem;
+            margin:4rem 1rem;
+            line-height: 4.5rem;   
+        }
+        &-btn
+        {
+            margin-top: 2rem;
+            &-structure
+            {
+                width: 30rem;
+                padding: 2rem 1.8rem;
+                font-size: 2rem;
+                margin:0 auto;
+                &-inner-text
+                {
+                }
+            }
+        }
+    }
+    &-carousel
+    {
+        // margin:6rem 1rem;
+        width:100vw;
+        margin:6rem -25rem 6rem -25rem;  
+        &-heading
+        {
+            font-size: 3rem;
+        }
+        &-underline
+        {
+            width:10rem;
+            height: 1.1rem;
+            margin:2rem auto;
+        }
+        &-container
+        {
+            padding:1rem 1rem;
+            height: 40rem;
+            button
+            {
+                margin: 0 2rem;
+                width: 4rem;
+                font-size: 8rem;
+                height: 30rem;
+            }
+            &-objects
+            {
+                margin: 0;
+                .object
+                {
+                    padding:2rem 2rem;
+                    top:0;
+                    left:0;
+                    &-center
+                    {
+
+                        &-text
+                        {
+                            font-size: 3rem;
+                        }
+                        &-logo
+                        {
+                            margin-top: 3rem;
+                            width:50%;
+                            margin-left: auto;
+                            margin-right: auto;
+                            img
+                            {
+                                width: 5.5rem;
+                            }
+                            h1
+                            {
+                                font-size: 2.5rem;
+                                margin-top: 1.7rem;
+                            }
+                            p
+                            {
+                                font-size: 2rem;
+                                margin-top: 1rem;
+                                span
+                                {
+                                }
+                            }    
+                        }   
+                    }
+                    
+                    
+                }
+            }
+        }
+    }
+}
+.footer
+{
+    padding: 3rem 7rem 0 7rem;
+    &-navbar
+    {
+        &-structure 
+        {         
+            .contact-us
+            {
+                width: 50rem;
+            }
+            &-list
+            {
+                &-a
+                {
+                    margin:0 3rem;
+                    width: min-content;
+                    margin-top:1rem;
+                    svg
+                    {   
+                        width:2rem;
+                    }
+                }
+                &:first-child
+                {
+                    margin-top: 1rem;
+                    img
+                    {
+                        width:4rem;
+                    }
+                }
+                &:last-child
+                {   
+                    margin-top: 0.5rem; 
+                }  
+                &:nth-child(2)
+                {
+                    font-size: 2.5rem;
+                    margin-top: 0.7rem;
+                    margin-left:1.5rem;
+                    margin-right: 2rem;
+                }    
+                &-logo
+                {
+                    border-radius: 50%;
+                }
+                &-button
+                {
+                    padding: 1.5rem 3rem;
+                    p
+                    {
+                        font-size: 1.75rem;
+                        line-height: 2.1rem;
+                    }
+                       
+                } 
+            }
+        }
+    }
+    &-copyrights
+    {
+        margin-bottom:5rem;
+        margin-top:10rem;
+        font-size: 1.5rem;
+    }
+}      
+.get-involved
+{
+    width:60vw;
+    height:80vh;
+    padding: 4rem 2rem 4rem 2rem;
+    .window-close
+    {
+        top:-2.5rem;
+        right: 6rem;
+        width:0rem;
+        height: 0rem;
+        font-size: 7rem;
+        padding: 0;
+    }
+    &-heading
+    {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    &-tagline
+    {
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+    }
+    &-button
+    {
+        font-weight: 700;
+    }
+    input
+    {
+        width:100%;
+        margin-top: 1.5rem;
+        padding: 1rem 2.2rem;
+        font-size: 1.5rem;
+    }
+    button
+    {
+        width:100%;
+        margin-top: 2rem;
+        font-size: 2rem;
+        padding:2rem 3rem; 
+    }
+    .select
+    {
+        select
+        {
+            width:100%;
+            margin-top: 1.5rem;
+            padding: 1rem 2.2rem;
+            font-size: 1.5rem;
+            option
+            {
+                padding: 2rem 2.5rem;
+                font-size: 2.2rem;
+            }
+        }
+        &:before
+        {
+            top: 0.7rem;
+            right: 0.5rem;
+            width: 3.5rem;
+            height: 0em;
+            line-height: 6.5rem;
+            font-size:3rem;
+        }
+        
+    }   
+}
+}
+
